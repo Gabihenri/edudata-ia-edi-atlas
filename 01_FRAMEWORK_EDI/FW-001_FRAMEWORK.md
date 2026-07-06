@@ -1,14 +1,17 @@
-01_FRAMEWORK_EDI/
+# Framework EDI
 
-FW-001_FRAMEWORK.md          ← O que é o Framework EDI
-FW-002_ORIGIN.md             ← Por que nasceu
-FW-003_PURPOSE.md            ← Qual problema resolve
-FW-004_PILLARS.md            ← Evidências • Desenvolvimento • Inteligência
-FW-005_PRINCIPLES.md         ← Princípios do Framework
-FW-006_ARCHITECTURE.md       ← Relação com EIOS
-FW-007_GOVERNANCE.md         ← Evolução do Framework
-FW-008_ONTOLOGY.md
-FW-009_TAXONOMY.md
-FW-010_GLOSSARY.md
-FW-011_REFERENCES.md
-FW-012_CHANGELOG.md
+O Framework EDI é o patrimônio científico, metodológico e pedagógico da EduData IA.
+
+Sua finalidade é organizar conhecimentos, princípios, evidências e métodos que orientam o desenvolvimento de tecnologias, produtos, pesquisas e processos voltados à melhoria contínua da educação.
+
+O Framework não é um software, uma metodologia isolada ou um conjunto de ferramentas. Ele constitui a base conceitual da Plataforma Operacional de Inteligência Educacional da EduData IA.
+
+Toda decisão estratégica, arquitetural ou tecnológica deve ser compatível com os princípios estabelecidos pelo Framework EDI.
+
+O Framework é estruturado sobre três pilares permanentes:
+
+- Evidências
+- Desenvolvimento
+- Inteligência
+
+Esses pilares orientam toda a evolução do EIOS e dos produtos da plataforma.
