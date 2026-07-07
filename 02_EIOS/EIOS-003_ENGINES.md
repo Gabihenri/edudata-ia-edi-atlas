@@ -1,7 +1,7 @@
 ---
 id: EIOS-003
-title: Arquitetura do EIOS
-subtitle: Arquitetura Tecnológica do Educational Intelligence Operating System
+title: Engines do EIOS
+subtitle: Motores Inteligentes do Educational Intelligence Operating System
 version: 1.0.0
 status: Em Desenvolvimento
 classification: EIOS
@@ -14,164 +14,107 @@ related:
   - EIOS-001
   - EIOS-002
   - FW-001
-  - KO-0005
 ---
 
-# Arquitetura do EIOS
+# Engines do EIOS
 
 ## Introdução
 
-A arquitetura do Educational Intelligence Operating System (EIOS) estabelece a organização estrutural da Inteligência Artificial Proprietária da EduData IA.
+O Educational Intelligence Operating System (EIOS) organiza sua inteligência por meio de um conjunto de motores especializados (Engines).
 
-Seu objetivo é garantir que todas as capacidades inteligentes da plataforma sejam desenvolvidas de forma modular, reutilizável, escalável e integrada ao Framework EDI.
+Cada Engine possui responsabilidades bem definidas e atua de forma integrada com os demais módulos da plataforma, permitindo que toda inteligência seja reutilizável, modular e escalável.
 
-Enquanto o Framework organiza o conhecimento científico, o EIOS organiza sua implementação tecnológica.
+Nenhum produto da EduData IA implementa motores próprios de inteligência.
 
----
-
-# Objetivos
-
-A arquitetura do EIOS busca:
-
-- centralizar a inteligência da plataforma;
-- evitar duplicação de lógica;
-- facilitar manutenção e evolução;
-- promover reutilização de componentes;
-- permitir integração entre produtos;
-- garantir escalabilidade.
+Todos utilizam os Engines disponibilizados pelo EIOS.
 
 ---
 
-# Estrutura Geral
+# Objetivo
 
-O EIOS é organizado em módulos especializados.
-
-```
-Framework EDI
-        ↓
-EIOS
-        ↓
-Core
-├── Identity
-├── Context
-├── Memory
-├── Knowledge
-├── Learning
-├── Decision
-├── Recommendation
-├── Analytics
-├── Prompt
-├── Agents
-├── Workflows
-├── Providers
-├── Pipelines
-├── Events
-├── Gateway
-└── API
-```
+Centralizar todas as capacidades inteligentes da Plataforma Operacional de Inteligência Educacional em módulos independentes, reutilizáveis e interoperáveis.
 
 ---
 
-# Camadas Arquiteturais
+# Princípios
 
-## Camada 1 — Identidade
+Os Engines devem ser:
 
-Responsável por compreender quem está utilizando a plataforma.
-
----
-
-## Camada 2 — Contexto
-
-Responsável por compreender a situação atual.
-
----
-
-## Camada 3 — Memória
-
-Responsável por preservar conhecimento e histórico.
+- especializados;
+- reutilizáveis;
+- desacoplados;
+- interoperáveis;
+- escaláveis;
+- versionados;
+- documentados no EDI Atlas.
 
 ---
 
-## Camada 4 — Conhecimento
+# Engines Oficiais
 
-Responsável pela organização do patrimônio intelectual.
+## Memory Engine
 
----
-
-## Camada 5 — Inteligência
-
-Aprendizagem, recomendações, analytics e tomada de decisão.
+Responsável pela memória operacional, contextual, histórica e institucional da plataforma.
 
 ---
 
-## Camada 6 — Execução
+## Context Engine
 
-Agentes, workflows, pipelines e integrações.
-
----
-
-## Camada 7 — Comunicação
-
-Gateway e APIs compartilhadas.
+Responsável pela interpretação do contexto de usuários, instituições, processos e interações.
 
 ---
 
-# Fluxo Geral
+## Agent Engine
 
-```
-Framework EDI
-
-↓
-
-Knowledge
-
-↓
-
-Context
-
-↓
-
-Memory
-
-↓
-
-Decision
-
-↓
-
-Recommendation
-
-↓
-
-Agents
-
-↓
-
-Produtos
-```
+Responsável pela execução de tarefas inteligentes por meio de agentes especializados.
 
 ---
 
-# Integração
+## Workflow Engine
 
-Todos os produtos da EduData IA utilizam exatamente esta arquitetura.
+Responsável pela orquestração de processos inteligentes envolvendo múltiplos módulos.
 
-Nenhum produto implementa inteligência própria.
+---
 
-Toda inteligência compartilhada pertence ao EIOS.
+## API Layer
+
+Disponibiliza os serviços inteligentes do EIOS para os produtos da plataforma.
+
+---
+
+## Provider Layer
+
+Integra modelos de IA, serviços externos e provedores tecnológicos utilizados pelo EIOS.
 
 ---
 
 # Evolução
 
-Novos módulos poderão ser incorporados mantendo compatibilidade com esta arquitetura.
+Novos Engines poderão ser incorporados à arquitetura do EIOS conforme a evolução da Plataforma Operacional de Inteligência Educacional.
 
-Toda evolução deverá preservar a modularidade, reutilização e interoperabilidade.
+Entre os motores previstos para futuras versões estão:
+
+- Knowledge Engine;
+- Learning Engine;
+- Decision Engine;
+- Recommendation Engine;
+- Analytics Engine;
+- Prompt Engine;
+- Identity Engine;
+- Security Engine.
+
+---
+
+# Integração
+
+Todos os Engines compartilham o mesmo Core do EIOS e comunicam-se por meio de interfaces padronizadas.
+
+Essa arquitetura garante consistência, reutilização de componentes e evolução contínua da inteligência da plataforma.
 
 ---
 
 # Considerações Finais
 
-A arquitetura do EIOS constitui a base tecnológica da Plataforma Operacional de Inteligência Educacional.
+Os Engines constituem o núcleo funcional do EIOS.
 
-Ela garante que toda inteligência desenvolvida pela EduData IA permaneça organizada, reutilizável e alinhada ao Framework EDI.
+Sua organização modular permite que novas capacidades inteligentes sejam adicionadas sem comprometer a arquitetura existente, preservando a escalabilidade, a interoperabilidade e a consistência da Plataforma Operacional de Inteligência Educacional.
