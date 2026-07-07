@@ -1,7 +1,7 @@
 ---
 id: EIOS-002
-title: Princípios do EIOS
-subtitle: Fundamentos da Inteligência Operacional da EduData IA
+title: Core do EIOS
+subtitle: Núcleo Compartilhado do Educational Intelligence Operating System
 version: 1.0.0
 status: Em Desenvolvimento
 classification: EIOS
@@ -13,100 +13,144 @@ updated: 2026
 related:
   - EIOS-001
   - FW-001
-  - FW-004
-  - KO-0005
 ---
 
-# Princípios do EIOS
+# Core do EIOS
 
 ## Introdução
 
-Os princípios do EIOS estabelecem os fundamentos que orientam o desenvolvimento da Inteligência Artificial Proprietária da EduData IA.
+O Core representa o núcleo compartilhado do Educational Intelligence Operating System (EIOS).
 
-Esses princípios garantem que toda capacidade inteligente implementada no EIOS permaneça alinhada ao Framework EDI e aos valores institucionais da plataforma.
+Ele reúne os serviços fundamentais utilizados por todos os módulos da plataforma, fornecendo uma infraestrutura comum que garante consistência, reutilização, segurança e escalabilidade.
 
----
-
-# Princípio 1 — Inteligência Compartilhada
-
-Toda inteligência reutilizável deverá existir no EIOS.
-
-Produtos não implementam motores próprios de inteligência.
-
-Eles consomem capacidades disponibilizadas pelo EIOS.
+Todo componente inteligente do EIOS deverá utilizar o Core antes de implementar funcionalidades próprias.
 
 ---
 
-# Princípio 2 — Framework First
+# Objetivo
 
-Nenhuma inteligência poderá contrariar os princípios definidos pelo Framework EDI.
-
-O Framework define.
-
-O EIOS implementa.
+Disponibilizar uma base tecnológica única para todos os módulos do EIOS e para os produtos da EduData IA, eliminando duplicações e garantindo interoperabilidade entre os componentes da plataforma.
 
 ---
 
-# Princípio 3 — Contexto Antes da Resposta
+# Princípios
 
-Toda decisão inteligente deve considerar o contexto disponível.
+O Core deve ser:
 
-A qualidade da inteligência depende da qualidade do contexto.
-
----
-
-# Princípio 4 — Memória como Patrimônio
-
-A memória constitui um dos principais ativos do EIOS.
-
-Ela preserva conhecimento, histórico, decisões e aprendizado acumulado.
-
----
-
-# Princípio 5 — Conhecimento Estruturado
-
-O conhecimento deverá ser organizado de forma reutilizável, rastreável e versionada.
-
-Sempre que possível deverá referenciar o EDI Atlas.
+- compartilhado;
+- modular;
+- reutilizável;
+- desacoplado;
+- seguro;
+- escalável;
+- testável;
+- versionado.
 
 ---
 
-# Princípio 6 — Aprendizagem Contínua
+# Componentes do Core
 
-O EIOS deverá evoluir continuamente.
+O Core reúne serviços essenciais para toda a plataforma.
 
-Novos conhecimentos poderão ser incorporados sem necessidade de reconstrução da plataforma.
+## Autenticação
 
----
-
-# Princípio 7 — Decisão Baseada em Evidências
-
-Toda recomendação produzida deverá priorizar evidências organizadas e contextualizadas.
+Gerenciamento de identidade e acesso aos recursos da plataforma.
 
 ---
 
-# Princípio 8 — Explicabilidade
+## Autorização
 
-Toda inteligência deverá produzir resultados compreensíveis.
-
-Sempre que possível, recomendações deverão apresentar justificativas.
+Controle de permissões baseado em papéis e políticas de segurança.
 
 ---
 
-# Princípio 9 — Segurança
+## Usuários
 
-Contexto, memória, conhecimento e dados deverão respeitar políticas de segurança, privacidade e governança.
+Gerenciamento centralizado dos usuários da plataforma.
 
 ---
 
-# Princípio 10 — Evolução Modular
+## Organizações
 
-O EIOS deverá crescer por meio de módulos independentes e reutilizáveis, preservando compatibilidade entre versões.
+Gerenciamento de escolas, universidades, redes de ensino e instituições.
+
+---
+
+## Banco de Dados
+
+Camada compartilhada de persistência de dados.
+
+---
+
+## Cache
+
+Serviços de otimização de desempenho e armazenamento temporário.
+
+---
+
+## Auditoria
+
+Registro de operações, histórico e rastreabilidade.
+
+---
+
+## Configuração
+
+Gerenciamento centralizado das configurações da plataforma.
+
+---
+
+## Validações
+
+Regras compartilhadas de validação de dados.
+
+---
+
+## Tratamento de Exceções
+
+Padronização de erros e respostas da plataforma.
+
+---
+
+# Integração
+
+Todos os Engines utilizam o Core.
+
+Entre eles:
+
+- Memory Engine;
+- Context Engine;
+- Agent Engine;
+- Workflow Engine;
+- API Layer;
+- Provider Layer.
+
+---
+
+# Relação com os Produtos
+
+O Core é compartilhado por:
+
+- Professor Digital;
+- Agenda Inteligente EDI;
+- EduData Academy;
+- EduData Analytics;
+- SGPA;
+- Observatório da Educação;
+- Comunidade EduData IA.
+
+---
+
+# Evolução
+
+Novos serviços compartilhados deverão ser incorporados ao Core antes de serem utilizados pelos Engines ou pelos produtos.
+
+Esse princípio garante consistência arquitetural e evita duplicação de implementações.
 
 ---
 
 # Considerações Finais
 
-Os princípios apresentados neste documento estabelecem as bases para a evolução da Inteligência Artificial Proprietária da EduData IA.
+O Core constitui a infraestrutura tecnológica compartilhada do EIOS.
 
-Todo novo componente do EIOS deverá respeitar estes princípios.
+Sua existência permite que toda a Plataforma Operacional de Inteligência Educacional evolua de forma integrada, reutilizando componentes, preservando a arquitetura e reduzindo significativamente o retrabalho.
