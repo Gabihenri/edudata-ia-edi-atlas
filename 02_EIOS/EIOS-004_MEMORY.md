@@ -1,7 +1,7 @@
 ---
 id: EIOS-004
-title: Core do EIOS
-subtitle: Núcleo Compartilhado do Educational Intelligence Operating System
+title: Memory Engine
+subtitle: Sistema de Memória do Educational Intelligence Operating System
 version: 1.0.0
 status: Em Desenvolvimento
 classification: EIOS
@@ -13,112 +13,100 @@ updated: 2026
 related:
   - EIOS-001
   - EIOS-003
-  - FW-001
-  - ADR-0003
+  - EIOS-005
 ---
 
-# Core do EIOS
+# Memory Engine
 
 ## Introdução
 
-O Core constitui o núcleo compartilhado do Educational Intelligence Operating System (EIOS).
+O Memory Engine é o módulo responsável por preservar, organizar e disponibilizar a memória da Plataforma Operacional de Inteligência Educacional.
 
-Ele reúne os serviços fundamentais utilizados por todos os módulos do sistema operacional de inteligência e estabelece a infraestrutura comum sobre a qual são construídas as capacidades inteligentes da Plataforma Operacional de Inteligência Educacional.
+Sua missão é garantir continuidade entre interações, preservar conhecimento acumulado e permitir que a inteligência da plataforma evolua ao longo do tempo.
 
-Nenhum componente do EIOS deverá duplicar funcionalidades existentes no Core.
+A memória não representa apenas armazenamento de informações.
+
+Ela constitui um mecanismo ativo de construção de inteligência.
 
 ---
 
 # Objetivo
 
-O Core tem como objetivo fornecer uma infraestrutura única, consistente e reutilizável para todos os módulos do EIOS.
+Organizar a memória institucional, operacional e contextual da EduData IA, permitindo que o EIOS utilize experiências anteriores para produzir respostas, recomendações e decisões mais consistentes.
 
-Ele promove padronização, interoperabilidade e evolução sustentável da plataforma.
+---
+
+# Tipos de Memória
+
+## Memória Operacional
+
+Registra informações necessárias para manter continuidade durante uma interação.
+
+## Memória Contextual
+
+Relaciona informações ao contexto do usuário, da escola, da turma, da formação ou da instituição.
+
+## Memória Histórica
+
+Preserva registros anteriores, decisões, planejamentos, evidências e recomendações.
+
+## Memória de Conhecimento
+
+Mantém conexão com o EDI Atlas, incluindo Framework EDI, Knowledge Objects, ADRs, documentos e pesquisas.
+
+## Memória de Aprendizagem
+
+Armazena padrões identificados ao longo do tempo para apoiar evolução contínua.
 
 ---
 
 # Responsabilidades
 
-Compete ao Core:
+Compete ao Memory Engine:
 
-- disponibilizar serviços compartilhados;
-- garantir interoperabilidade entre módulos;
-- padronizar contratos internos;
-- centralizar funcionalidades comuns;
-- reduzir duplicação de código;
-- facilitar manutenção e evolução.
-
----
-
-# Componentes Fundamentais
-
-O Core é composto por componentes reutilizáveis, incluindo:
-
-- autenticação;
-- autorização;
-- gerenciamento de usuários;
-- gerenciamento de organizações;
-- gerenciamento de permissões;
-- configuração da plataforma;
-- auditoria;
-- cache;
-- comunicação entre módulos;
-- tratamento de exceções;
-- validações;
-- contratos de API.
-
-Outros componentes poderão ser incorporados conforme a evolução do EIOS.
+- preservar histórico;
+- recuperar conhecimento relevante;
+- manter continuidade das interações;
+- apoiar agentes inteligentes;
+- fornecer memória para recomendações;
+- registrar evolução dos usuários e instituições.
 
 ---
 
-# Relação com os Demais Módulos
+# Integração
 
-Todos os módulos do EIOS dependem do Core.
+O Memory Engine integra-se com:
 
-O Core não depende de módulos específicos de inteligência.
-
-Essa relação reduz acoplamento e facilita a evolução independente de cada componente.
-
----
-
-# Integração com a Plataforma
-
-O Core estabelece a infraestrutura comum utilizada por:
-
-- Professor Digital;
-- Agenda Inteligente EDI;
-- EduData Academy;
-- EduData Analytics;
-- SGPA;
-- Observatório da Educação;
-- Comunidade EduData IA.
+- Context Engine;
+- Agent Engine;
+- Workflow Engine;
+- API Layer;
+- Provider Layer;
+- EDI Atlas.
 
 ---
 
-# Princípios
+# Relação com os Produtos
 
-O Core deve ser:
+Professor Digital  
+→ histórico de desenvolvimento docente.
 
-- reutilizável;
-- modular;
-- desacoplado;
-- escalável;
-- seguro;
-- testável;
-- versionado.
+Agenda Inteligente EDI  
+→ histórico de planejamentos e evidências.
 
----
+EduData Academy  
+→ histórico formativo.
 
-# Evolução
+EduData Analytics  
+→ séries históricas e indicadores.
 
-Toda nova funcionalidade compartilhada deverá ser incorporada ao Core antes de ser utilizada pelos produtos.
-
-Isso garante consistência arquitetural e evita duplicação de implementações.
+SGPA  
+→ histórico institucional e governança.
 
 ---
 
 # Considerações Finais
 
-O Core representa a infraestrutura compartilhada do EIOS.
+O Memory Engine representa a capacidade do EIOS de aprender com sua própria história.
 
-Sua existência permite que a Inteligência Artificial Proprietária da EduData IA evolua de forma organizada, sustentável e alinhada aos princípios definidos pelo Framework EDI.
+Ao preservar experiências, contexto e conhecimento, transforma dados acumulados em inteligência reutilizável para todo o ecossistema EduData IA.
