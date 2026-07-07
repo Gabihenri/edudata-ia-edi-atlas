@@ -1,7 +1,7 @@
 ---
 id: EIOS-005
-title: Identity Engine
-subtitle: Gerenciamento de Identidade do Educational Intelligence Operating System
+title: Context Engine
+subtitle: Gerenciamento de Contexto do Educational Intelligence Operating System
 version: 1.0.0
 status: Em Desenvolvimento
 classification: EIOS
@@ -12,145 +12,164 @@ updated: 2026
 
 related:
   - EIOS-001
+  - EIOS-002
+  - EIOS-003
   - EIOS-004
-  - KO-0008
-  - KO-0009
 ---
 
-# Identity Engine
+# Context Engine
 
 ## Introdução
 
-O Identity Engine é o módulo responsável por compreender quem está interagindo com a Plataforma Operacional de Inteligência Educacional.
+O Context Engine é o módulo responsável por compreender o contexto em que uma interação ocorre dentro da Plataforma Operacional de Inteligência Educacional.
 
-Sua função é construir uma identidade digital unificada para pessoas, organizações e instituições, permitindo que todos os demais módulos do EIOS produzam respostas contextualizadas e personalizadas.
+Sua função consiste em reunir informações relevantes sobre usuários, instituições, ambiente, objetivos e situação atual, permitindo que toda inteligência produzida pelo EIOS seja contextualizada.
 
-Toda inteligência da plataforma inicia pela identificação correta do contexto humano e institucional.
+Sem contexto não existe inteligência de qualidade.
 
 ---
 
 # Objetivo
 
-Construir uma representação confiável da identidade dos usuários da plataforma, respeitando princípios de segurança, privacidade, governança e personalização.
+Construir uma representação dinâmica e atualizada do contexto de cada interação realizada na plataforma.
+
+O Context Engine fornece aos demais módulos informações suficientes para interpretar corretamente cada situação.
 
 ---
 
 # Princípios
 
-O Identity Engine deve ser:
+O contexto deve ser:
 
-- único;
-- seguro;
-- interoperável;
+- dinâmico;
+- atualizado continuamente;
 - contextualizado;
-- escalável;
-- reutilizável.
+- reutilizável;
+- explicável;
+- seguro.
 
 ---
 
-# Entidades Gerenciadas
+# Dimensões do Contexto
 
-O módulo gerencia diferentes tipos de identidade.
+O Context Engine organiza diferentes dimensões.
 
-## Pessoas
+## Contexto do Usuário
 
-- Professores
-- Gestores
-- Estudantes
-- Pesquisadores
-- Administradores
-- Especialistas
-
----
-
-## Organizações
-
-- Escolas
-- Diretorias
-- Redes de Ensino
-- Universidades
-- Instituições Parceiras
+- função;
+- perfil profissional;
+- experiência;
+- objetivos;
+- preferências.
 
 ---
 
-## Estruturas
+## Contexto Institucional
 
-- Equipes
-- Departamentos
-- Comunidades
-- Projetos
-- Programas
+- escola;
+- organização;
+- rede de ensino;
+- universidade;
+- secretaria.
+
+---
+
+## Contexto Temporal
+
+- data;
+- período letivo;
+- calendário;
+- eventos;
+- cronograma.
+
+---
+
+## Contexto Pedagógico
+
+- componente curricular;
+- turma;
+- habilidades;
+- competências;
+- planejamento;
+- avaliações.
+
+---
+
+## Contexto Operacional
+
+- produto utilizado;
+- módulo ativo;
+- workflow;
+- tarefa em execução;
+- histórico recente.
 
 ---
 
 # Responsabilidades
 
-O Identity Engine é responsável por:
+Compete ao Context Engine:
 
-- identificação do usuário;
-- autenticação lógica;
-- perfil institucional;
-- papéis (roles);
-- permissões;
-- relacionamentos;
-- organizações;
-- vínculo entre usuários e instituições;
-- histórico de identidade.
+- interpretar o contexto atual;
+- consolidar informações relevantes;
+- disponibilizar contexto aos módulos inteligentes;
+- atualizar mudanças de contexto;
+- manter coerência durante toda a interação.
 
 ---
 
 # Integração
 
-O Identity Engine fornece informações para:
+O Context Engine fornece informações para:
 
-- Context Engine;
 - Memory Engine;
-- Knowledge Engine;
-- Recommendation Engine;
-- Decision Engine;
-- Analytics Engine;
-- Agents.
-
-Todos os módulos utilizam a identidade como ponto inicial da inteligência.
+- Agent Engine;
+- Workflow Engine;
+- API Layer;
+- Provider Layer;
+- futuros módulos de Knowledge, Learning e Decision.
 
 ---
 
 # Relação com os Produtos
 
-Todos os produtos utilizam o mesmo Identity Engine.
-
-Exemplos:
-
 Professor Digital
 
-→ Perfil Docente Inteligente.
+→ contexto docente.
 
 Agenda Inteligente EDI
 
-→ Identificação do professor e da escola.
+→ contexto do planejamento pedagógico.
 
 EduData Academy
 
-→ Área do aluno.
+→ contexto formativo.
 
 EduData Analytics
 
-→ Perfis analíticos.
+→ contexto analítico.
 
 SGPA
 
-→ Governança institucional.
+→ contexto institucional.
+
+Observatório da Educação
+
+→ contexto das pesquisas.
+
+Comunidade EduData IA
+
+→ contexto colaborativo.
 
 ---
 
 # Evolução
 
-O Identity Engine deverá evoluir continuamente para suportar novos perfis, organizações, permissões e modelos de autenticação, preservando compatibilidade com toda a Plataforma Operacional de Inteligência Educacional.
+O Context Engine deverá incorporar continuamente novas fontes de contexto, preservando compatibilidade com toda a arquitetura do EIOS.
 
 ---
 
 # Considerações Finais
 
-O Identity Engine representa o ponto de partida da Inteligência Artificial Proprietária da EduData IA.
+O Context Engine representa a capacidade do EIOS de compreender a realidade antes de produzir qualquer resposta.
 
-Antes de compreender problemas, produzir recomendações ou aprender continuamente, o EIOS precisa compreender quem está utilizando a plataforma e em qual contexto essa interação ocorre.
+Ele garante que toda inteligência da Plataforma Operacional de Inteligência Educacional considere o contexto específico de cada usuário, instituição e situação, tornando as decisões mais precisas, coerentes e personalizadas.
