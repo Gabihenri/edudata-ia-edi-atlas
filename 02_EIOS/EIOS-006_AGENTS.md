@@ -1,7 +1,7 @@
 ---
 id: EIOS-006
-title: Context Engine
-subtitle: Gerenciamento de Contexto do Educational Intelligence Operating System
+title: Agent Engine
+subtitle: Sistema de Agentes Inteligentes do Educational Intelligence Operating System
 version: 1.0.0
 status: Em Desenvolvimento
 classification: EIOS
@@ -12,160 +12,191 @@ updated: 2026
 
 related:
   - EIOS-001
+  - EIOS-002
+  - EIOS-003
+  - EIOS-004
   - EIOS-005
-  - KO-0005
 ---
 
-# Context Engine
+# Agent Engine
 
 ## Introdução
 
-O Context Engine é o módulo responsável por compreender o contexto em que uma interação ocorre.
+O Agent Engine é o módulo responsável pela execução autônoma de tarefas inteligentes dentro do Educational Intelligence Operating System (EIOS).
 
-Sua função consiste em reunir informações relevantes sobre usuários, instituições, ambiente, histórico recente, objetivos e situações específicas, permitindo que toda inteligência produzida pelo EIOS seja contextualizada.
+Os agentes representam entidades computacionais capazes de interpretar objetivos, utilizar contexto, consultar memória, acessar conhecimento e executar ações de forma coordenada.
 
-Sem contexto não existe inteligência de qualidade.
+Eles constituem a camada operacional da Inteligência Artificial Proprietária da EduData IA.
 
 ---
 
 # Objetivo
 
-Construir uma representação dinâmica do contexto atual de cada interação realizada na Plataforma Operacional de Inteligência Educacional.
-
-O Context Engine fornece aos demais módulos informações suficientes para interpretar corretamente cada situação.
+Disponibilizar agentes inteligentes especializados capazes de executar tarefas complexas, colaborar entre si e apoiar usuários e sistemas em diferentes processos da Plataforma Operacional de Inteligência Educacional.
 
 ---
 
 # Princípios
 
-O contexto deve ser:
+Todo agente deverá ser:
 
-- dinâmico;
-- atualizado continuamente;
-- contextualizado;
+- especializado;
 - reutilizável;
-- explicável;
-- seguro.
+- colaborativo;
+- rastreável;
+- seguro;
+- configurável;
+- escalável.
 
 ---
 
-# Componentes do Contexto
+# Estrutura
 
-O Context Engine organiza diferentes dimensões do contexto.
+Cada agente é composto por:
 
-## Contexto Pessoal
-
-- perfil do usuário;
-- função;
-- experiência;
-- objetivos;
-- preferências.
-
----
-
-## Contexto Institucional
-
-- escola;
-- organização;
-- diretoria;
-- universidade;
-- secretaria.
-
----
-
-## Contexto Temporal
-
-- data;
-- período letivo;
-- calendário;
-- eventos;
-- cronograma.
-
----
-
-## Contexto Pedagógico
-
-- componente curricular;
-- turma;
-- habilidades;
-- competências;
-- planejamento;
-- avaliações.
-
----
-
-## Contexto Operacional
-
-- produto utilizado;
-- módulo;
-- workflow;
-- tarefa atual;
-- histórico recente.
+- identidade;
+- objetivo;
+- contexto;
+- memória;
+- conhecimento;
+- capacidades;
+- ferramentas;
+- restrições;
+- histórico.
 
 ---
 
 # Responsabilidades
 
-O Context Engine é responsável por:
+Compete ao Agent Engine:
 
-- interpretar contexto;
-- consolidar informações relevantes;
-- fornecer contexto aos módulos inteligentes;
-- atualizar mudanças de contexto;
-- manter coerência durante a interação.
+- interpretar objetivos;
+- executar tarefas inteligentes;
+- consultar memória;
+- acessar conhecimento;
+- utilizar ferramentas;
+- colaborar com outros agentes;
+- registrar histórico;
+- retornar resultados.
+
+---
+
+# Tipos de Agentes
+
+O EIOS poderá possuir diferentes categorias de agentes.
+
+## Agentes Operacionais
+
+Executam tarefas específicas.
+
+Exemplos:
+
+- geração de relatórios;
+- classificação de documentos;
+- validação de dados.
+
+---
+
+## Agentes Analíticos
+
+Produzem análises e interpretações.
+
+Exemplos:
+
+- análise de indicadores;
+- identificação de tendências;
+- geração de insights.
+
+---
+
+## Agentes Educacionais
+
+Especializados em processos pedagógicos.
+
+Exemplos:
+
+- apoio ao Professor Digital;
+- recomendações pedagógicas;
+- planejamento educacional.
+
+---
+
+## Agentes Institucionais
+
+Apoiam processos administrativos e de governança.
+
+Exemplos:
+
+- conformidade;
+- auditoria;
+- monitoramento institucional.
 
 ---
 
 # Integração
 
-O Context Engine fornece contexto para:
+Os agentes utilizam diretamente:
 
+- Context Engine;
 - Memory Engine;
-- Knowledge Engine;
-- Learning Engine;
-- Decision Engine;
-- Recommendation Engine;
-- Analytics Engine;
-- Agents.
+- API Layer;
+- Provider Layer;
+- Workflow Engine.
+
+Cada agente executa apenas sua especialidade, mantendo baixo acoplamento com os demais módulos.
 
 ---
 
 # Relação com os Produtos
 
-Todos os produtos da EduData IA utilizam o Context Engine.
-
-Exemplos:
-
 Professor Digital
 
-→ contexto docente.
+→ Agente de Desenvolvimento Docente.
 
 Agenda Inteligente EDI
 
-→ contexto do planejamento.
+→ Agente de Planejamento.
 
-Academy
+EduData Academy
 
-→ contexto da formação.
+→ Agente Tutor.
 
-Analytics
+EduData Analytics
 
-→ contexto dos indicadores.
+→ Agente Analítico.
 
 SGPA
 
-→ contexto institucional.
+→ Agente de Governança.
+
+Observatório da Educação
+
+→ Agente de Pesquisa.
+
+Comunidade EduData IA
+
+→ Agente Moderador.
 
 ---
 
 # Evolução
 
-O Context Engine deverá incorporar continuamente novas fontes de contexto, preservando compatibilidade com os demais módulos do EIOS.
+Novos agentes poderão ser incorporados continuamente.
+
+Cada agente deverá possuir:
+
+- documentação própria;
+- versão;
+- capacidades registradas;
+- integrações documentadas;
+- histórico de evolução.
 
 ---
 
 # Considerações Finais
 
-O Context Engine representa a capacidade do EIOS de compreender a realidade antes de produzir qualquer resposta.
+O Agent Engine representa a camada executora da inteligência do EIOS.
 
-Ele garante que toda inteligência gerada pela Plataforma Operacional de Inteligência Educacional considere o contexto específico de cada usuário, instituição e situação.
+Enquanto o Framework EDI define os princípios e o EIOS organiza as capacidades inteligentes, os agentes transformam essas capacidades em ações concretas, apoiando professores, gestores, pesquisadores e instituições em suas atividades diárias.
+
+Sua arquitetura modular permite que novos agentes sejam adicionados sem comprometer a estabilidade do sistema, garantindo evolução contínua da Plataforma Operacional de Inteligência Educacional.
