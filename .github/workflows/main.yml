@@ -1,9 +1,12 @@
-name: EDI Atlas Automation
+name: Automação EDI Atlas
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
-      - principal
+      - main
+
     paths:
       - "00_FOUNDATION/**"
       - "01_FRAMEWORK_EDI/**"
@@ -17,8 +20,6 @@ on:
       - "STATUS_OFICIAL.md"
       - "scripts/atlas_automation.py"
 
-  workflow_dispatch:
-
 permissions:
   contents: write
 
@@ -28,43 +29,51 @@ concurrency:
 
 jobs:
   validate-and-update:
+
     name: Validar e atualizar Atlas
+
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar repositório
-        uses: actions/checkout@v6
+
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
         with:
-          ref: principal
+          ref: main
           fetch-depth: 0
 
       - name: Configurar Python
-        uses: actions/setup-python@v6
+        uses: actions/setup-python@v5
         with:
           python-version: "3.13"
 
-      - name: Executar automação do Atlas
-        run: python scripts/atlas_automation.py
+      - name: Executar automação
+        run: |
+          python scripts/atlas_automation.py
 
       - name: Verificar alterações
         id: changes
         shell: bash
         run: |
           if git diff --quiet; then
-            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "changed=false" >> $GITHUB_OUTPUT
           else
-            echo "changed=true" >> "$GITHUB_OUTPUT"
+            echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      - name: Configurar identidade do Git
+      - name: Configurar Git
         if: steps.changes.outputs.changed == 'true'
         run: |
-          git config user.name "edudata-atlas-bot"
-          git config user.email "edudata-atlas-bot@users.noreply.github.com"
+          git config user.name "EDI Atlas Bot"
+          git config user.email "bot@edudataia.com"
 
-      - name: Registrar atualização
+      - name: Commit das alterações
         if: steps.changes.outputs.changed == 'true'
         run: |
-          git add README.md ATLAS_INDEX.md
-          git commit -m "docs(atlas): atualizar índice e status oficial"
-          git push origin principal
+          git add .
+          git commit -m "Atualização automática do EDI Atlas"
+
+      - name: Push
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git push origin main
