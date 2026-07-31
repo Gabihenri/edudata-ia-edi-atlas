@@ -2,13 +2,11 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-07-31 23:23 UTC
+**Gerado em:** 2026-07-31 23:25 UTC
 
-**Arquivos alterados detectados:** 1
+**Arquivos alterados detectados:** 0
 
-## `.github/workflows/edi-atlas.yml`
-
-> O arquivo alterado não está presente no inventário documental atual.
+Nenhuma alteração documental foi detectada no commit analisado.
 
 ## Resumo
 

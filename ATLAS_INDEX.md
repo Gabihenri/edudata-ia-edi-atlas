@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo GitHub Actions.
 
-**Última atualização automática:** 2026-07-31 23:23 UTC
+**Última atualização automática:** 2026-07-31 23:25 UTC
 
 ## Arquitetura oficial
 
@@ -156,9 +156,11 @@ _Nenhum documento Markdown encontrado._
 ## Outros documentos
 
 - [Inventário Oficial do EDI Atlas](ATLAS_INVENTORY.md)
+- [Relatório de Impacto de Alterações](CHANGE_IMPACT_REPORT.md)
+- [Grafo de Dependências do EDI Atlas](DEPENDENCY_GRAPH.md)
 
 ## Resumo quantitativo
 
 - Seções oficiais previstas: **14**
-- Documentos indexados: **72**
-- Documentos adicionais: **1**
+- Documentos indexados: **74**
+- Documentos adicionais: **3**
