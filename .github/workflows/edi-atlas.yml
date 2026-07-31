@@ -24,9 +24,14 @@ concurrency:
 
 jobs:
   validate-and-update:
-    name: Validar e atualizar Atlas
+    name: Validar, sincronizar e atualizar Atlas
+
+    if: >
+      github.event_name != 'push' ||
+      github.actor != 'github-actions[bot]'
+
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
 
     steps:
       - name: Checkout do repositório
@@ -45,20 +50,38 @@ jobs:
           python -m py_compile scripts/atlas_automation.py
           python -m py_compile scripts/atlas_parser.py
           python -m py_compile scripts/atlas_dependency_engine.py
+          python -m py_compile scripts/atlas_sync_engine.py
 
-      - name: Executar automação principal do Atlas
-        run: python scripts/atlas_automation.py
+      - name: Executar automação principal
+        run: |
+          python scripts/atlas_automation.py
 
       - name: Executar inventário completo
-        run: python scripts/atlas_parser.py
+        run: |
+          python scripts/atlas_parser.py
 
       - name: Executar análise de dependências
-        run: python scripts/atlas_dependency_engine.py
+        run: |
+          python scripts/atlas_dependency_engine.py
+
+      - name: Sincronizar pastas e subpastas derivadas
+        env:
+          EDI_ATLAS_SYNC_APPLY: "true"
+        run: |
+          python scripts/atlas_sync_engine.py --apply
+
+      - name: Atualizar inventário após sincronização
+        run: |
+          python scripts/atlas_parser.py
 
       - name: Remover arquivos temporários do Python
         run: |
           find . -type d -name "__pycache__" -prune -exec rm -rf {} +
           find . -type f -name "*.pyc" -delete
+
+      - name: Exibir alterações geradas
+        run: |
+          git status --short
 
       - name: Verificar alterações geradas
         id: changes
@@ -66,7 +89,6 @@ jobs:
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
-            git status --short
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
@@ -77,8 +99,9 @@ jobs:
           git config user.name "EDI Atlas Bot"
           git config user.email "edudata-atlas-bot@users.noreply.github.com"
 
-      - name: Preparar arquivos gerados
+      - name: Preparar documentos principais
         if: steps.changes.outputs.changed == 'true'
+        shell: bash
         run: |
           files=(
             "README.md"
@@ -89,6 +112,7 @@ jobs:
             "ATLAS_INVENTORY.json"
             "DEPENDENCY_GRAPH.md"
             "CHANGE_IMPACT_REPORT.md"
+            "ATLAS_SYNC_REPORT.md"
           )
 
           for file in "${files[@]}"; do
@@ -97,7 +121,27 @@ jobs:
             fi
           done
 
-      - name: Registrar atualização documental
+      - name: Preparar índices das subpastas
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          for directory in \
+            "07_KNOWLEDGE" \
+            "09_COLLECTION" \
+            "11_PUBLISHER"
+          do
+            if [ -d "$directory" ]; then
+              find "$directory" \
+                -type f \
+                -name "AUTO_INDEX.md" \
+                -print0 |
+              while IFS= read -r -d '' file; do
+                git add "$file"
+              done
+            fi
+          done
+
+      - name: Registrar atualização automática
         if: steps.changes.outputs.changed == 'true'
         id: commit
         shell: bash
@@ -106,10 +150,13 @@ jobs:
             echo "created=false" >> "$GITHUB_OUTPUT"
             echo "Nenhuma alteração documental para registrar."
           else
-            git commit -m "docs(atlas): atualizar inventário, dependências e impacto"
+            git commit \
+              -m "docs(atlas): sincronizar documentos, dependências e subpastas"
+
             echo "created=true" >> "$GITHUB_OUTPUT"
           fi
 
       - name: Enviar alterações para main
         if: steps.commit.outputs.created == 'true'
-        run: git push origin main
+        run: |
+          git push origin main
