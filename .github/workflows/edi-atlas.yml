@@ -1,0 +1,68 @@
+name: Automação EDI Atlas
+
+on:
+  workflow_dispatch:
+
+  push:
+    branches:
+      - main
+    paths:
+      - "**/*.md"
+      - "scripts/atlas_automation.py"
+      - ".github/workflows/edi-atlas.yml"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edi-atlas-${{ github.ref_name }}
+  cancel-in-progress: false
+
+jobs:
+  validate-and-update:
+    name: Validar e atualizar Atlas
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Validar sintaxe do script
+        run: python -m py_compile scripts/atlas_automation.py
+
+      - name: Executar automação
+        run: python scripts/atlas_automation.py
+
+      - name: Verificar alterações
+        id: changes
+        shell: bash
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Configurar Git
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "EDI Atlas Bot"
+          git config user.email "edudata-atlas-bot@users.noreply.github.com"
+
+      - name: Registrar atualização automática
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git add README.md STATUS_OFICIAL.md ATLAS_INDEX.md ATLAS_VALIDATION_REPORT.md
+          git commit -m "docs(atlas): atualizar índice e status oficial"
+
+      - name: Enviar alterações
+        if: steps.changes.outputs.changed == 'true'
+        run: git push origin main
