@@ -1,0 +1,70 @@
+name: EDI Atlas Automation
+
+on:
+  push:
+    branches:
+      - principal
+    paths:
+      - "00_FOUNDATION/**"
+      - "01_FRAMEWORK_EDI/**"
+      - "02_EIOS/**"
+      - "07_KNOWLEDGE/**"
+      - "09_COLLECTION/**"
+      - "11_PUBLISHER/**"
+      - "ADR/**"
+      - "DECISIONS/**"
+      - "DIAGRAMS/**"
+      - "STATUS_OFICIAL.md"
+      - "scripts/atlas_automation.py"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: edi-atlas-automation
+  cancel-in-progress: false
+
+jobs:
+  validate-and-update:
+    name: Validar e atualizar Atlas
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Baixar repositório
+        uses: actions/checkout@v6
+        with:
+          ref: principal
+          fetch-depth: 0
+
+      - name: Configurar Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+
+      - name: Executar automação do Atlas
+        run: python scripts/atlas_automation.py
+
+      - name: Verificar alterações
+        id: changes
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Configurar identidade do Git
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "edudata-atlas-bot"
+          git config user.email "edudata-atlas-bot@users.noreply.github.com"
+
+      - name: Registrar atualização
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git add README.md ATLAS_INDEX.md
+          git commit -m "docs(atlas): atualizar índice e status oficial"
+          git push origin principal
