@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31 23:41 UTC",
+  "generated_at": "2026-07-31 23:47 UTC",
   "repository": "edudata-ia-edi-atlas",
   "document_count": 77,
   "documents": [
@@ -10,7 +10,7 @@
       "extension": ".md",
       "size_bytes": 331,
       "line_count": 27,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "d073af3492173bff9d566151ab0f124875ba405cdbe7d82e07be3b606b53f372",
       "metadata": {
         "document_id": null,
@@ -35,7 +35,7 @@
       "extension": ".md",
       "size_bytes": 1277,
       "line_count": 27,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "a5612a3f28966fecfb9c7138f8e98bf6bb3b7455ed62716fe9d71d534a0632a9",
       "metadata": {
         "document_id": "ORG-002",
@@ -66,7 +66,7 @@
       "extension": ".md",
       "size_bytes": 805,
       "line_count": 22,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "f2b7c25fd80213e00f57af41157c5a9361b58ca44910d047f00ca06502c33440",
       "metadata": {
         "document_id": "ORG-003",
@@ -96,7 +96,7 @@
       "extension": ".md",
       "size_bytes": 475,
       "line_count": 26,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "c6df4659ec9b570dcb3b072e0c50fd7b52843e0deeb07cdf16695f861d33e345",
       "metadata": {
         "document_id": "ORG-004",
@@ -123,7 +123,7 @@
       "extension": ".md",
       "size_bytes": 3994,
       "line_count": 230,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "ff6a46cad913bd730594a0fc3c7eab06a547681f12b2ec5c2e7c4516867bdde9",
       "metadata": {
         "document_id": "ORG-005",
@@ -164,7 +164,7 @@
       "extension": ".md",
       "size_bytes": 2643,
       "line_count": 113,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "c9088c091705cdfe5163e0049e2d27ebc2ad1f2ec6ebdc8d5c26d2beb28bd040",
       "metadata": {
         "document_id": "ORG-006",
@@ -213,7 +213,7 @@
       "extension": ".md",
       "size_bytes": 2439,
       "line_count": 157,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "2cb2d205115abd421ac1acdef4360735d5aaf785169db68ea6c4e013f49a6f47",
       "metadata": {
         "document_id": "ORG-007",
@@ -249,7 +249,7 @@
       "extension": ".md",
       "size_bytes": 1696,
       "line_count": 118,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "056256f0ebc1b000b1c61a433f0784d9370440a15244aa31df06cba313dbf584",
       "metadata": {
         "document_id": "ORG-008",
@@ -282,7 +282,7 @@
       "extension": ".md",
       "size_bytes": 468,
       "line_count": 29,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "67683e0a8fa9bc744654eda9d9a7ddc8ab57142ef7e77507b3e2050efdd08fd7",
       "metadata": {
         "document_id": "ORG-009",
@@ -312,7 +312,7 @@
       "extension": ".md",
       "size_bytes": 2963,
       "line_count": 181,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "23882fb3704642bbf168b30f7a8d807b389204f98e942df6625c660630dbe6af",
       "metadata": {
         "document_id": "ORG-010",
@@ -352,7 +352,7 @@
       "extension": ".md",
       "size_bytes": 5192,
       "line_count": 155,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "22a7d9a89a034bec82d4720e62698639a666583b36c31f498be2d4209ca46573",
       "metadata": {
         "document_id": "FW-001",
@@ -391,7 +391,7 @@
       "extension": ".md",
       "size_bytes": 4287,
       "line_count": 145,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "43cfa759c1efc39609cd65bfc166a4033a250586471f77340f9ade88a04e8ffd",
       "metadata": {
         "document_id": "FW-002",
@@ -430,7 +430,7 @@
       "extension": ".md",
       "size_bytes": 3806,
       "line_count": 158,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "b26a0dc4d4183a02510cf48cfa5617a73e770f2058a7747d300651b93aaa63d2",
       "metadata": {
         "document_id": "FW-003",
@@ -466,7 +466,7 @@
       "extension": ".md",
       "size_bytes": 3713,
       "line_count": 133,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "43260dbf98e6cf2e8a836a8b421d66059d9da50ab727d08bf8c132acc3435f43",
       "metadata": {
         "document_id": "FW-004",
@@ -505,7 +505,7 @@
       "extension": ".md",
       "size_bytes": 2616,
       "line_count": 144,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "904d5aa84813d57904719e8dd3feb19aa1afe6ca154870c4cf883d87f019bcd1",
       "metadata": {
         "document_id": "FW-005",
@@ -539,7 +539,7 @@
       "extension": ".md",
       "size_bytes": 3267,
       "line_count": 197,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "f93155ca5f372cb9cfc9dc8f3c532d87191aebbedfcc8f8a4b46c604d97c0f23",
       "metadata": {
         "document_id": "FW-006",
@@ -582,7 +582,7 @@
       "extension": ".md",
       "size_bytes": 4072,
       "line_count": 169,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "da131c31e8cfca8cd99fe293032380d0a3bda828bd11b1fc5c0b50dc1bbdcfaa",
       "metadata": {
         "document_id": "FW-007",
@@ -631,7 +631,7 @@
       "extension": ".md",
       "size_bytes": 2178,
       "line_count": 147,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "913da1ffbcf3441d74469ab64da9c84e4a3cfaf07eb8ab1101da8061628f3473",
       "metadata": {
         "document_id": "FW-008",
@@ -668,7 +668,7 @@
       "extension": ".md",
       "size_bytes": 2726,
       "line_count": 165,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "4d638ea55096499b55b67fd17836c98dc49748321ff1cb1dd53cbe419fd919f5",
       "metadata": {
         "document_id": "FW-009",
@@ -708,7 +708,7 @@
       "extension": ".md",
       "size_bytes": 911,
       "line_count": 54,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "a8e81d855f35a79c4f74cbe9fd97cb720918702ba05101c793855bb6f40257d3",
       "metadata": {
         "document_id": "FW-010",
@@ -739,7 +739,7 @@
       "extension": ".md",
       "size_bytes": 610,
       "line_count": 38,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "045ad448c814ed75df4fccf6b235da6320ede1edbdbc2005c58e4ef103a9afb6",
       "metadata": {
         "document_id": "FW-011",
@@ -768,7 +768,7 @@
       "extension": ".md",
       "size_bytes": 823,
       "line_count": 49,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "4d40d2052b4e71d4f4ca9dcfe7ae0a62e3519d61a0a06ca61992381c22b1abb3",
       "metadata": {
         "document_id": "FW-012",
@@ -800,7 +800,7 @@
       "extension": ".md",
       "size_bytes": 2608,
       "line_count": 116,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "a918c55a3c3d723ad3e989ef95a1275ecc90ac4aeb32ad47c4be423915b2505e",
       "metadata": {
         "document_id": "EIOS-001",
@@ -835,7 +835,7 @@
       "extension": ".md",
       "size_bytes": 2942,
       "line_count": 156,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "32cd0824505f747b456186c76596b3c82670d014eea6e13dc7ddefad9908d846",
       "metadata": {
         "document_id": "EIOS-002",
@@ -880,7 +880,7 @@
       "extension": ".md",
       "size_bytes": 2826,
       "line_count": 120,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "d2d6c8367ae6bed3f95b1d09d7decfc45887217e735331a6ee75d905221ee5ef",
       "metadata": {
         "document_id": "EIOS-003",
@@ -920,7 +920,7 @@
       "extension": ".md",
       "size_bytes": 2663,
       "line_count": 112,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "f8c4e5572d3e61fdd965163efc97c2af2f5e74b880665c40e8df5b30f92d8026",
       "metadata": {
         "document_id": "EIOS-004",
@@ -959,7 +959,7 @@
       "extension": ".md",
       "size_bytes": 3191,
       "line_count": 175,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "3194a67ed9cd574c37d92ab123aff32e2f0ed412816e82278171e5b7242c02d2",
       "metadata": {
         "document_id": "EIOS-005",
@@ -1000,7 +1000,7 @@
       "extension": ".md",
       "size_bytes": 3735,
       "line_count": 202,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "f2b1c36c36508fbb671a9db30f965fade184121b44969d6ec5edefae4b9e9a6e",
       "metadata": {
         "document_id": "EIOS-006",
@@ -1041,7 +1041,7 @@
       "extension": ".md",
       "size_bytes": 2902,
       "line_count": 151,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "0ec7c034013fcd74cfee5de9aebd150baea10939749b9b86a2bd13276a416a95",
       "metadata": {
         "document_id": "EIOS-007",
@@ -1082,7 +1082,7 @@
       "extension": ".md",
       "size_bytes": 2747,
       "line_count": 153,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "2415cd21fecaa616041de6aa85b52eef601e9ec1aad9790d4d4b0cd097b5c5ce",
       "metadata": {
         "document_id": "EIOS-008",
@@ -1125,7 +1125,7 @@
       "extension": ".md",
       "size_bytes": 3085,
       "line_count": 139,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "ef5098d1a25281fa7bdaa0a4e161b23d4b13d568e79e430798399a93fc00b0a0",
       "metadata": {
         "document_id": "EIOS-009",
@@ -1166,8 +1166,8 @@
       "extension": ".md",
       "size_bytes": 1547,
       "line_count": 38,
-      "modified_at": "2026-07-31 23:41 UTC",
-      "checksum_sha256": "14eb205932766f1ec281dce8d130a777934b05bead95a981d96fcd64fe6a4511",
+      "modified_at": "2026-07-31 23:47 UTC",
+      "checksum_sha256": "1c12eb918b269406526799fec74d9d2140e4fc3f508c9ab6fb3175fbe47e16ab",
       "metadata": {
         "document_id": null,
         "title": "Índice automático — 07 KNOWLEDGE",
@@ -1207,7 +1207,7 @@
       "extension": ".md",
       "size_bytes": 1919,
       "line_count": 80,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "a9d18492945ecb0b5df3ae64992b2ffad8611a08ac97a3644d0e46e306666aea",
       "metadata": {
         "document_id": "KO-0000",
@@ -1240,7 +1240,7 @@
       "extension": ".md",
       "size_bytes": 2209,
       "line_count": 93,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "f8c76b3e88e701dc21f0d219c162d7e42073d8803f282917a676722f4fc82430",
       "metadata": {
         "document_id": "KO-0001",
@@ -1276,7 +1276,7 @@
       "extension": ".md",
       "size_bytes": 2150,
       "line_count": 88,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "b15a4591c4743b0e33bf71bc1ba4c440db980a78b7a88612036dc2bea4572da9",
       "metadata": {
         "document_id": "KO-0002",
@@ -1312,7 +1312,7 @@
       "extension": ".md",
       "size_bytes": 2717,
       "line_count": 104,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "8164fd2d41e173e15052dbe73be0b0717bf0da23fe71c6fadc3c66d20e4b8d8f",
       "metadata": {
         "document_id": "KO-0003",
@@ -1348,7 +1348,7 @@
       "extension": ".md",
       "size_bytes": 3030,
       "line_count": 122,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "0e5dc02f008b1911b1b5b7140fbcaabc9f92cb6c4f2148b58b9902c48b61adaf",
       "metadata": {
         "document_id": "KO-0004",
@@ -1388,7 +1388,7 @@
       "extension": ".md",
       "size_bytes": 3719,
       "line_count": 147,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "b954e4132fc6238c74c3fc6144ceae4214131368d1304b61cdd920caa722f119",
       "metadata": {
         "document_id": "KO-0005",
@@ -1427,7 +1427,7 @@
       "extension": ".md",
       "size_bytes": 2460,
       "line_count": 124,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "acc1ae2f4891130827296f8cc039173fb60efcf899cff9ea31acd0f8f39a4f30",
       "metadata": {
         "document_id": "KO-0006",
@@ -1468,7 +1468,7 @@
       "extension": ".md",
       "size_bytes": 1301,
       "line_count": 55,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "97d929035bc4a96e602499254ad24a22d1bf371dcbd2d0bc8a6a0d7a8ffef50c",
       "metadata": {
         "document_id": "KO-0007",
@@ -1500,7 +1500,7 @@
       "extension": ".md",
       "size_bytes": 857,
       "line_count": 36,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "27b07c958cafd90b1920722b8043ea3d37bce04336bf9c18e4e67b4cf383520c",
       "metadata": {
         "document_id": "KO-0008",
@@ -1530,7 +1530,7 @@
       "extension": ".md",
       "size_bytes": 740,
       "line_count": 35,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "48e112b9ff8b31b2a3402e81a3d9ccce43070213f8181bfe6441952563b57bdf",
       "metadata": {
         "document_id": "KO-0009",
@@ -1560,7 +1560,7 @@
       "extension": ".md",
       "size_bytes": 971,
       "line_count": 50,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "ff4eb8ec42bc86df306e1ce1f14ed6f0b089fb2d4cc88c6550f3e8ab82f91172",
       "metadata": {
         "document_id": "KO-0010",
@@ -1591,7 +1591,7 @@
       "extension": ".md",
       "size_bytes": 3168,
       "line_count": 98,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "306b292f20ce63469d0bd81e32a250e3d12a90715c40ee002230f61e08aeffe5",
       "metadata": {
         "document_id": "VOL-00",
@@ -1632,8 +1632,8 @@
       "extension": ".md",
       "size_bytes": 1116,
       "line_count": 29,
-      "modified_at": "2026-07-31 23:41 UTC",
-      "checksum_sha256": "cd363e0e3691a67a14ae40005cb0483cc4825834e979eca1c420a0da30817d2a",
+      "modified_at": "2026-07-31 23:47 UTC",
+      "checksum_sha256": "763f8cb63589a3690bbb0649ee72ea14ef2e5c29ec78f16ded5e3effbb9397a5",
       "metadata": {
         "document_id": null,
         "title": "Índice automático — VOLUME — 00 FUNDACAO",
@@ -1674,7 +1674,7 @@
       "extension": ".md",
       "size_bytes": 3334,
       "line_count": 75,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "72b820344d23f668305fc8fd3c30128e5177eeef581e3c689280fba738edd7bb",
       "metadata": {
         "document_id": null,
@@ -1708,7 +1708,7 @@
       "extension": ".md",
       "size_bytes": 3920,
       "line_count": 127,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "1e764065f9c7f8ca70c91248a81087a9153b27d534404970b5e58630a34194e6",
       "metadata": {
         "document_id": null,
@@ -1744,7 +1744,7 @@
       "extension": ".md",
       "size_bytes": 3741,
       "line_count": 95,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "33fd31a91899ca8c4db4830b1eda9bbde9f2ae14836187e38572de7fe25f7957",
       "metadata": {
         "document_id": null,
@@ -1779,7 +1779,7 @@
       "extension": ".md",
       "size_bytes": 3176,
       "line_count": 77,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "83a12beb66d3b62d84779dd04f657d51d18bca57bb9ae9648b6a7574b6cd1aa3",
       "metadata": {
         "document_id": null,
@@ -1815,7 +1815,7 @@
       "extension": ".md",
       "size_bytes": 3548,
       "line_count": 101,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "a44014534699651dcfc26f43cc78c004b542ccb8934337e1039b24bba9c7184b",
       "metadata": {
         "document_id": null,
@@ -1854,7 +1854,7 @@
       "extension": ".md",
       "size_bytes": 3524,
       "line_count": 133,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "7b651df2797bb239499ee0533b564fe9434e94eb4baff8897a910b8ceb4d9612",
       "metadata": {
         "document_id": null,
@@ -1891,7 +1891,7 @@
       "extension": ".md",
       "size_bytes": 3290,
       "line_count": 120,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "683725b216ab96572de4e06110f54aabb538a0acf8df1cd6bfb6f02f613d096e",
       "metadata": {
         "document_id": null,
@@ -1927,7 +1927,7 @@
       "extension": ".md",
       "size_bytes": 3663,
       "line_count": 141,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "f784d7128e65788db5321a4dd8919c4dc88deb6f01fd26b254ca7a19b399d5eb",
       "metadata": {
         "document_id": null,
@@ -1964,7 +1964,7 @@
       "extension": ".md",
       "size_bytes": 3816,
       "line_count": 149,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "dc06fc3680a8e78986dab01dd4811d2bbdc46a82b1d181c2c61af34847bc7f60",
       "metadata": {
         "document_id": null,
@@ -2006,7 +2006,7 @@
       "extension": ".md",
       "size_bytes": 3924,
       "line_count": 128,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "cab8d0586d3071c117edccc5bf51d03c3828094db6fbad97d3e0dcb03e3ad8c9",
       "metadata": {
         "document_id": null,
@@ -2042,7 +2042,7 @@
       "extension": ".md",
       "size_bytes": 1099,
       "line_count": 58,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "b6865f65859a1a37140c0f3f916cc15253241ee32859281b841492b699985c2c",
       "metadata": {
         "document_id": null,
@@ -2073,8 +2073,8 @@
       "extension": ".md",
       "size_bytes": 1547,
       "line_count": 34,
-      "modified_at": "2026-07-31 23:41 UTC",
-      "checksum_sha256": "232b031588f60658edbc3ba36d4d331a75fbfb9fa64ca292f4159402b6e30eec",
+      "modified_at": "2026-07-31 23:47 UTC",
+      "checksum_sha256": "ab82abfbcd58034cfa6a3333718b68b0f637154416a18bb0a398b292f78f2caf",
       "metadata": {
         "document_id": null,
         "title": "Índice automático — 11 PUBLISHER",
@@ -2112,7 +2112,7 @@
       "extension": ".md",
       "size_bytes": 3162,
       "line_count": 146,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "7c83b4b3c5c77e5ccc1f306993bc9bd9640ac457772f32a41f14d857775930b3",
       "metadata": {
         "document_id": "PUB-001",
@@ -2149,7 +2149,7 @@
       "extension": ".md",
       "size_bytes": 3096,
       "line_count": 245,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "6e6a38193a6fc818f2f4210bbc642c5919626e8ca5babb5e888b869983824884",
       "metadata": {
         "document_id": "PUB-002",
@@ -2193,7 +2193,7 @@
       "extension": ".md",
       "size_bytes": 3007,
       "line_count": 162,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "d2f5f12572496a64d455d150c4ac357b46afe32938959ad42985c87df15f3868",
       "metadata": {
         "document_id": "PUB-003",
@@ -2233,7 +2233,7 @@
       "extension": ".md",
       "size_bytes": 3240,
       "line_count": 193,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "232e58d9428d670d310b8db237addfb7f4bd18dfec79344a39521801feb277df",
       "metadata": {
         "document_id": "PUB-004",
@@ -2275,7 +2275,7 @@
       "extension": ".md",
       "size_bytes": 3404,
       "line_count": 186,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "a801875b0e57bd76e265465f7a9b4987cf67086110f4f0b5ccccbdd38a62a439",
       "metadata": {
         "document_id": "PUB-005",
@@ -2317,7 +2317,7 @@
       "extension": ".md",
       "size_bytes": 3621,
       "line_count": 174,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "c4bca50de2aafdfc2bb1b510ad55c15eb853cd82e82fe3f51976f8ae55d2bf28",
       "metadata": {
         "document_id": "PUB-006",
@@ -2359,7 +2359,7 @@
       "extension": ".md",
       "size_bytes": 4025,
       "line_count": 252,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "a21082b4f7922819c303fec4bcb9e53f77d36a09f40c2b4633711905ec2cbeab",
       "metadata": {
         "document_id": "PUB-007",
@@ -2401,7 +2401,7 @@
       "extension": ".md",
       "size_bytes": 4318,
       "line_count": 171,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "9bbd33d5beff09fbf1b45774fa608f39a68d1e3c8ef9152b5338a749cf358bf3",
       "metadata": {
         "document_id": "PUB-008",
@@ -2445,7 +2445,7 @@
       "extension": ".md",
       "size_bytes": 3427,
       "line_count": 253,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "b56df8db8168014f7a4c764beb3a9ab6dd40c15f63bd83c46548e799bbdfef3e",
       "metadata": {
         "document_id": "PUB-009",
@@ -2488,7 +2488,7 @@
       "extension": ".md",
       "size_bytes": 790,
       "line_count": 35,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "84eb2427d3e1999a4c6817d4f6d4b7198c35490562749475b14dafba6d255250",
       "metadata": {
         "document_id": "ADR-0001",
@@ -2520,7 +2520,7 @@
       "extension": ".md",
       "size_bytes": 557,
       "line_count": 33,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "ef631f114b4fcb5b13c8cb080e0ae1c2349d3e56864fa23110bc68e67e0278e2",
       "metadata": {
         "document_id": "ADR-0002",
@@ -2552,7 +2552,7 @@
       "extension": ".md",
       "size_bytes": 343,
       "line_count": 34,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "6b80e03276c97a20527a1e2cb37e3e2aec9d5aa56277b8bb42d6e5831a4a81f5",
       "metadata": {
         "document_id": "ADR-0003",
@@ -2582,7 +2582,7 @@
       "extension": ".md",
       "size_bytes": 406,
       "line_count": 26,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "7ba61bbbaa77ba00bb807f26fcb0740f7ddb993ee28c95effb303516615469c9",
       "metadata": {
         "document_id": "ADR-0004",
@@ -2612,7 +2612,7 @@
       "extension": ".md",
       "size_bytes": 469,
       "line_count": 32,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "959d37ed89708918c3b711868a4e29985d975e1d4905d9a01a3c8ea68951ecee",
       "metadata": {
         "document_id": "ADR-0005",
@@ -2641,10 +2641,10 @@
       "directory": ".",
       "filename": "ATLAS_SYNC_REPORT.md",
       "extension": ".md",
-      "size_bytes": 963,
+      "size_bytes": 961,
       "line_count": 30,
-      "modified_at": "2026-07-31 23:41 UTC",
-      "checksum_sha256": "1ceb9d6ad25e8afaba4213b12be7ec4b7a3ed5a3412611dfd069801a49e0500d",
+      "modified_at": "2026-07-31 23:47 UTC",
+      "checksum_sha256": "a3c334da692e6971a8609eb9083b92cdcfbfdeb521454cf108385e76f7992a74",
       "metadata": {
         "document_id": null,
         "title": "Relatório de Sincronização do EDI Atlas",
@@ -2673,7 +2673,7 @@
       "extension": ".md",
       "size_bytes": 1250,
       "line_count": 46,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "2f6d555a5c7b182e647ecbbae0ae8e121cfb2281dc9a7c9f3bd97374dd99e4d0",
       "metadata": {
         "document_id": "DEC-0001",
@@ -2704,7 +2704,7 @@
       "extension": ".md",
       "size_bytes": 935,
       "line_count": 56,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "dc0a5067dabc40fc47b6de5a48ce23a6798413f7510f4bb62f3d2d0b1e808479",
       "metadata": {
         "document_id": "DEC-0002",
@@ -2735,7 +2735,7 @@
       "extension": ".md",
       "size_bytes": 962,
       "line_count": 46,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "74edcdea6c3b85ee2ab38fbbf765a8a80d796d3436492f9a3d72200b6e911e03",
       "metadata": {
         "document_id": "DEC-0003",
@@ -2766,7 +2766,7 @@
       "extension": ".md",
       "size_bytes": 4314,
       "line_count": 209,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "ea9f0af1e2fb93477f1898e04ae1546009a500869d0840ce31c3674cf97b6023",
       "metadata": {
         "document_id": null,
@@ -2816,7 +2816,7 @@
       "extension": ".md",
       "size_bytes": 1633,
       "line_count": 74,
-      "modified_at": "2026-07-31 23:41 UTC",
+      "modified_at": "2026-07-31 23:47 UTC",
       "checksum_sha256": "bf91bf686fe919bd1acd3ae10ffb6002cd2c33605a20fae2e462c70055b0e6e4",
       "metadata": {
         "document_id": null,
