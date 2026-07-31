@@ -45,6 +45,11 @@ jobs:
       - name: Executar varredura completa do Atlas
         run: python scripts/atlas_automation.py
 
+      - name: Remover arquivos temporários do Python
+        run: |
+          find . -type d -name "__pycache__" -prune -exec rm -rf {} +
+          find . -type f -name "*.pyc" -delete
+
       - name: Verificar alterações geradas
         id: changes
         shell: bash
@@ -66,8 +71,18 @@ jobs:
         if: steps.changes.outputs.changed == 'true'
         run: |
           git add README.md STATUS_OFICIAL.md ATLAS_INDEX.md ATLAS_VALIDATION_REPORT.md
-          git commit -m "docs(atlas): sincronizar índice, status e validação"
+
+          if git diff --cached --quiet; then
+            echo "Nenhuma alteração documental para registrar."
+          else
+            git commit -m "docs(atlas): sincronizar índice, status e validação"
+          fi
 
       - name: Enviar alterações para main
         if: steps.changes.outputs.changed == 'true'
-        run: git push origin main
+        run: |
+          if git log -1 --pretty=%B | grep -q "docs(atlas): sincronizar índice, status e validação"; then
+            git push origin main
+          else
+            echo "Nenhum commit novo para enviar."
+          fi
