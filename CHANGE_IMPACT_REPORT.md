@@ -2,11 +2,13 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-07-31 23:25 UTC
+**Gerado em:** 2026-07-31 23:33 UTC
 
-**Arquivos alterados detectados:** 0
+**Arquivos alterados detectados:** 1
 
-Nenhuma alteração documental foi detectada no commit analisado.
+## `scripts/atlas_sync_engine.py`
+
+> O arquivo alterado não está presente no inventário documental atual.
 
 ## Resumo
 
