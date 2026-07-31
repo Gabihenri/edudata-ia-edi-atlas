@@ -31,7 +31,7 @@ jobs:
       github.actor != 'github-actions[bot]'
 
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
 
     steps:
       - name: Checkout do repositório
@@ -51,6 +51,7 @@ jobs:
           python -m py_compile scripts/atlas_parser.py
           python -m py_compile scripts/atlas_dependency_engine.py
           python -m py_compile scripts/atlas_sync_engine.py
+          python -m py_compile scripts/atlas_validation_engine.py
 
       - name: Executar automação principal
         run: |
@@ -73,6 +74,10 @@ jobs:
       - name: Atualizar inventário após sincronização
         run: |
           python scripts/atlas_parser.py
+
+      - name: Executar validação completa
+        run: |
+          python scripts/atlas_validation_engine.py
 
       - name: Remover arquivos temporários do Python
         run: |
@@ -113,6 +118,10 @@ jobs:
             "DEPENDENCY_GRAPH.md"
             "CHANGE_IMPACT_REPORT.md"
             "ATLAS_SYNC_REPORT.md"
+            "ATLAS_HEALTH.md"
+            "METADATA_REPORT.md"
+            "BROKEN_LINKS.md"
+            "DUPLICATED_IDS.md"
           )
 
           for file in "${files[@]}"; do
@@ -151,7 +160,7 @@ jobs:
             echo "Nenhuma alteração documental para registrar."
           else
             git commit \
-              -m "docs(atlas): sincronizar documentos, dependências e subpastas"
+              -m "docs(atlas): sincronizar, validar e atualizar conhecimento"
 
             echo "created=true" >> "$GITHUB_OUTPUT"
           fi
