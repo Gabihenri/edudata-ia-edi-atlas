@@ -8,6 +8,7 @@ on:
       - main
     paths:
       - "**/*.md"
+      - "**/*.json"
       - "scripts/**"
       - ".github/workflows/edi-atlas.yml"
 
@@ -29,21 +30,26 @@ jobs:
 
     steps:
       - name: Checkout do repositório
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: main
           fetch-depth: 0
 
       - name: Configurar Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: "3.13"
 
-      - name: Validar sintaxe do script
-        run: python -m py_compile scripts/atlas_automation.py
+      - name: Validar sintaxe dos scripts
+        run: |
+          python -m py_compile scripts/atlas_automation.py
+          python -m py_compile scripts/atlas_parser.py
 
-      - name: Executar varredura completa do Atlas
+      - name: Executar varredura principal do Atlas
         run: python scripts/atlas_automation.py
+
+      - name: Executar inventário completo das subpastas
+        run: python scripts/atlas_parser.py
 
       - name: Remover arquivos temporários do Python
         run: |
@@ -70,19 +76,25 @@ jobs:
       - name: Registrar atualização documental
         if: steps.changes.outputs.changed == 'true'
         run: |
-          git add README.md STATUS_OFICIAL.md ATLAS_INDEX.md ATLAS_VALIDATION_REPORT.md
+          git add \
+            README.md \
+            STATUS_OFICIAL.md \
+            ATLAS_INDEX.md \
+            ATLAS_VALIDATION_REPORT.md \
+            ATLAS_INVENTORY.md \
+            ATLAS_INVENTORY.json
 
           if git diff --cached --quiet; then
             echo "Nenhuma alteração documental para registrar."
           else
-            git commit -m "docs(atlas): sincronizar índice, status e validação"
+            git commit -m "docs(atlas): atualizar documentação e inventário"
           fi
 
       - name: Enviar alterações para main
         if: steps.changes.outputs.changed == 'true'
         run: |
-          if git log -1 --pretty=%B | grep -q "docs(atlas): sincronizar índice, status e validação"; then
-            git push origin main
-          else
+          if git diff HEAD~1 --quiet 2>/dev/null; then
             echo "Nenhum commit novo para enviar."
+          else
+            git push origin main
           fi
