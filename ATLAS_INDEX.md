@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo GitHub Actions.
 
-**Última atualização automática:** 2026-07-31 23:39 UTC
+**Última atualização automática:** 2026-07-31 23:41 UTC
 
 ## Arquitetura oficial
 
@@ -82,6 +82,7 @@ Produtos Especializados
 
 **Diretório:** `07_KNOWLEDGE`
 
+- [Índice automático — 07 KNOWLEDGE](07_KNOWLEDGE/AUTO_INDEX.md)
 - [Knowledge Objects](07_KNOWLEDGE/KO-0000_INDEX.md)
 - [KO-0001 — Evidência](07_KNOWLEDGE/KO-0001_EVIDENCE.md)
 - [KO-0002 — Desenvolvimento](07_KNOWLEDGE/KO-0002_DEVELOPMENT.md)
@@ -105,6 +106,7 @@ _Nenhum documento Markdown encontrado._
 **Diretório:** `09_COLLECTION`
 
 - [Volume 00 — Fundação da EduData IA](09_COLLECTION/VOLUME-00_FUNDACAO/00_INDEX.md)
+- [Índice automático — VOLUME — 00 FUNDACAO](09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md)
 - [Capítulo 1 — A Origem](09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md)
 - [Capítulo 2 — A Problemática](09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md)
 - [Capítulo 3 — A Visão](09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md)
@@ -125,6 +127,7 @@ _Nenhum documento Markdown encontrado._
 
 **Diretório:** `11_PUBLISHER`
 
+- [Índice automático — 11 PUBLISHER](11_PUBLISHER/AUTO_INDEX.md)
 - [EduData Press Editorial Specification](11_PUBLISHER/PUB-001_EDITORIAL_SPECIFICATION.md)
 - [EduData Press LaTeX Template](11_PUBLISHER/PUB-002_LATEX_TEMPLATE.md)
 - [Coleções Oficiais da EduData Press](11_PUBLISHER/PUB-003_COLLECTIONS.md)
@@ -156,11 +159,12 @@ _Nenhum documento Markdown encontrado._
 ## Outros documentos
 
 - [Inventário Oficial do EDI Atlas](ATLAS_INVENTORY.md)
+- [Relatório de Sincronização do EDI Atlas](ATLAS_SYNC_REPORT.md)
 - [Relatório de Impacto de Alterações](CHANGE_IMPACT_REPORT.md)
 - [Grafo de Dependências do EDI Atlas](DEPENDENCY_GRAPH.md)
 
 ## Resumo quantitativo
 
 - Seções oficiais previstas: **14**
-- Documentos indexados: **74**
-- Documentos adicionais: **3**
+- Documentos indexados: **78**
+- Documentos adicionais: **4**

@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-07-31 23:39 UTC
+**Gerado em:** 2026-07-31 23:41 UTC
 
 **Total de documentos:** 77
 
@@ -900,7 +900,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **30**
-- Tamanho: **949 bytes**
+- Tamanho: **963 bytes**
 
 ## DECISIONS
 

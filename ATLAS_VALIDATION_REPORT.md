@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo GitHub Actions.
 
-**Executado em:** 2026-07-31 23:39 UTC
+**Executado em:** 2026-07-31 23:41 UTC
 
 **Resultado:** `APROVADO`
 
@@ -15,11 +15,11 @@
 - Produtos: **0**
 - Governança: **0**
 - Arquitetura: **0**
-- Conhecimento: **11**
+- Conhecimento: **12**
 - Diagramas: **0**
-- Coleção: **12**
+- Coleção: **13**
 - Roadmap: **0**
-- Editor e Publisher: **9**
+- Editor e Publisher: **10**
 - ADRs: **5**
 - Decisões: **3**
 

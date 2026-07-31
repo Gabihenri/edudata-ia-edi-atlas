@@ -2,25 +2,25 @@
 
 > Arquivo gerado automaticamente pelo EDI Atlas Sync Engine.
 
-**Executado em:** 2026-07-31 23:39 UTC
+**Executado em:** 2026-07-31 23:41 UTC
 
 **Modo:** `APPLY`
 
-**Documentos analisados:** 73
+**Documentos analisados:** 77
 
 **Ações identificadas:** 3
 
 ## Resumo do impacto
 
-- Total de documentos impactados: **0**
+- Total de documentos impactados: **23**
 - Exigem revisão humana: **0**
-- Podem ser sincronizados: **0**
+- Podem ser sincronizados: **23**
 
 ## Ações
 
-- **criar** `07_KNOWLEDGE/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
-- **criar** `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
-- **criar** `11_PUBLISHER/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
+- **atualizar** `07_KNOWLEDGE/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
+- **atualizar** `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
+- **atualizar** `11_PUBLISHER/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
 
 ## Limites de segurança
 
