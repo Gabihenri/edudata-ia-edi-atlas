@@ -153,8 +153,12 @@ _Nenhum documento Markdown encontrado._
 - [DEC-0002 — Arquitetura Oficial](DECISIONS/DEC-0002.md)
 - [DEC-0003 — Estratégia de Evolução](DECISIONS/DEC-0003.md)
 
+## Outros documentos
+
+- [Inventário Oficial do EDI Atlas](ATLAS_INVENTORY.md)
+
 ## Resumo quantitativo
 
 - Seções oficiais previstas: **14**
-- Documentos indexados: **71**
-- Documentos adicionais: **0**
+- Documentos indexados: **72**
+- Documentos adicionais: **1**
