@@ -2,9 +2,9 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-07-31 23:33 UTC
+**Gerado em:** 2026-07-31 23:39 UTC
 
-**Total de documentos:** 73
+**Total de documentos:** 77
 
 ## 00_FOUNDATION
 
@@ -392,7 +392,19 @@ Documentos encontrados: **9**
 
 ## 07_KNOWLEDGE
 
-Documentos encontrados: **11**
+Documentos encontrados: **12**
+
+### [Índice automático — 07 KNOWLEDGE](07_KNOWLEDGE/AUTO_INDEX.md)
+
+- Caminho: `07_KNOWLEDGE/AUTO_INDEX.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **38**
+- Tamanho: **1547 bytes**
 
 ### [Knowledge Index](07_KNOWLEDGE/KO-0000_INDEX.md)
 
@@ -528,7 +540,7 @@ Documentos encontrados: **11**
 
 ## 09_COLLECTION
 
-Documentos encontrados: **12**
+Documentos encontrados: **13**
 
 ### [Volume 00 — Fundação da EduData IA](09_COLLECTION/VOLUME-00_FUNDACAO/00_INDEX.md)
 
@@ -541,6 +553,18 @@ Documentos encontrados: **12**
 - Revisado: `não informado`
 - Linhas: **98**
 - Tamanho: **3168 bytes**
+
+### [Índice automático — VOLUME — 00 FUNDACAO](09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md)
+
+- Caminho: `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **29**
+- Tamanho: **1116 bytes**
 
 ### [Capítulo 1 — A Origem](09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md)
 
@@ -676,7 +700,19 @@ Documentos encontrados: **12**
 
 ## 11_PUBLISHER
 
-Documentos encontrados: **9**
+Documentos encontrados: **10**
+
+### [Índice automático — 11 PUBLISHER](11_PUBLISHER/AUTO_INDEX.md)
+
+- Caminho: `11_PUBLISHER/AUTO_INDEX.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **34**
+- Tamanho: **1547 bytes**
 
 ### [EduData Press Editorial Specification](11_PUBLISHER/PUB-001_EDITORIAL_SPECIFICATION.md)
 
@@ -849,6 +885,22 @@ Documentos encontrados: **5**
 - Revisado: `não informado`
 - Linhas: **32**
 - Tamanho: **469 bytes**
+
+## ATLAS_SYNC_REPORT.md
+
+Documentos encontrados: **1**
+
+### [Relatório de Sincronização do EDI Atlas](ATLAS_SYNC_REPORT.md)
+
+- Caminho: `ATLAS_SYNC_REPORT.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **30**
+- Tamanho: **949 bytes**
 
 ## DECISIONS
 
