@@ -4,7 +4,7 @@
 
 **Gerado em:** 2026-07-31 23:50 UTC
 
-**Total de documentos:** 77
+**Total de documentos:** 81
 
 ## 00_FOUNDATION
 
@@ -886,6 +886,22 @@ Documentos encontrados: **5**
 - Linhas: **32**
 - Tamanho: **469 bytes**
 
+## ATLAS_HEALTH.md
+
+Documentos encontrados: **1**
+
+### [Saúde do EDI Atlas](ATLAS_HEALTH.md)
+
+- Caminho: `ATLAS_HEALTH.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **28**
+- Tamanho: **474 bytes**
+
 ## ATLAS_SYNC_REPORT.md
 
 Documentos encontrados: **1**
@@ -899,8 +915,24 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **30**
-- Tamanho: **961 bytes**
+- Linhas: **28**
+- Tamanho: **701 bytes**
+
+## BROKEN_LINKS.md
+
+Documentos encontrados: **1**
+
+### [Links Internos Quebrados](BROKEN_LINKS.md)
+
+- Caminho: `BROKEN_LINKS.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **9**
+- Tamanho: **188 bytes**
 
 ## DECISIONS
 
@@ -941,6 +973,38 @@ Documentos encontrados: **3**
 - Revisado: `não informado`
 - Linhas: **46**
 - Tamanho: **962 bytes**
+
+## DUPLICATED_IDS.md
+
+Documentos encontrados: **1**
+
+### [IDs Duplicados no EDI Atlas](DUPLICATED_IDS.md)
+
+- Caminho: `DUPLICATED_IDS.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **9**
+- Tamanho: **191 bytes**
+
+## METADATA_REPORT.md
+
+Documentos encontrados: **1**
+
+### [Relatório de Metadados do EDI Atlas](METADATA_REPORT.md)
+
+- Caminho: `METADATA_REPORT.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **749**
+- Tamanho: **9650 bytes**
 
 ## README.md
 

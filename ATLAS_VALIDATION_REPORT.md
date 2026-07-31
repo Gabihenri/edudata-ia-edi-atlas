@@ -4,7 +4,7 @@
 
 **Executado em:** 2026-07-31 23:50 UTC
 
-**Documentos analisados:** 77
+**Documentos analisados:** 81
 
 **Saúde do Atlas:** 0/100 — **Muito crítico**
 

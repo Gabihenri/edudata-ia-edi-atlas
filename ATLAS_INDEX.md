@@ -158,13 +158,17 @@ _Nenhum documento Markdown encontrado._
 
 ## Outros documentos
 
+- [Saúde do EDI Atlas](ATLAS_HEALTH.md)
 - [Inventário Oficial do EDI Atlas](ATLAS_INVENTORY.md)
 - [Relatório de Sincronização do EDI Atlas](ATLAS_SYNC_REPORT.md)
+- [Links Internos Quebrados](BROKEN_LINKS.md)
 - [Relatório de Impacto de Alterações](CHANGE_IMPACT_REPORT.md)
 - [Grafo de Dependências do EDI Atlas](DEPENDENCY_GRAPH.md)
+- [IDs Duplicados no EDI Atlas](DUPLICATED_IDS.md)
+- [Relatório de Metadados do EDI Atlas](METADATA_REPORT.md)
 
 ## Resumo quantitativo
 
 - Seções oficiais previstas: **14**
-- Documentos indexados: **78**
-- Documentos adicionais: **4**
+- Documentos indexados: **82**
+- Documentos adicionais: **8**

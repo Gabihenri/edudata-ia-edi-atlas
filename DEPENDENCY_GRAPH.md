@@ -4,7 +4,7 @@
 
 **Gerado em:** 2026-07-31 23:50 UTC
 
-**Documentos analisados:** 77
+**Documentos analisados:** 81
 
 **Relações identificadas:** 2259
 

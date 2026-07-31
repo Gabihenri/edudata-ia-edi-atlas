@@ -6,21 +6,19 @@
 
 **Modo:** `APPLY`
 
-**Documentos analisados:** 77
+**Documentos analisados:** 81
 
-**Ações identificadas:** 3
+**Ações identificadas:** 0
 
 ## Resumo do impacto
 
-- Total de documentos impactados: **0**
+- Total de documentos impactados: **23**
 - Exigem revisão humana: **0**
-- Podem ser sincronizados: **0**
+- Podem ser sincronizados: **23**
 
 ## Ações
 
-- **atualizar** `07_KNOWLEDGE/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
-- **atualizar** `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
-- **atualizar** `11_PUBLISHER/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
+- Nenhuma alteração de sincronização foi necessária.
 
 ## Limites de segurança
 

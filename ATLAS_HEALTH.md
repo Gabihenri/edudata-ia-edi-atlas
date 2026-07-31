@@ -10,7 +10,7 @@
 
 ## Indicadores
 
-- Documentos analisados: **77**
+- Documentos analisados: **81**
 - Erros: **164**
 - Avisos: **259**
 - Informações: **5**
