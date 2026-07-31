@@ -2,6 +2,12 @@ name: Automação EDI Atlas
 
 on:
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Executar somente em modo de simulação"
+        required: false
+        default: false
+        type: boolean
 
   push:
     branches:
@@ -23,15 +29,15 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  validate-and-update:
-    name: Validar, sincronizar e atualizar Atlas
+  knowledge-engine:
+    name: Executar EDI Knowledge Engine
 
     if: >
       github.event_name != 'push' ||
       github.actor != 'github-actions[bot]'
 
     runs-on: ubuntu-latest
-    timeout-minutes: 25
+    timeout-minutes: 30
 
     steps:
       - name: Checkout do repositório
@@ -45,46 +51,40 @@ jobs:
         with:
           python-version: "3.13"
 
-      - name: Validar sintaxe dos scripts
+      - name: Validar sintaxe do Knowledge Engine
         run: |
-          python -m py_compile scripts/atlas_automation.py
-          python -m py_compile scripts/atlas_parser.py
-          python -m py_compile scripts/atlas_dependency_engine.py
-          python -m py_compile scripts/atlas_sync_engine.py
-          python -m py_compile scripts/atlas_validation_engine.py
+          python -m py_compile scripts/knowledge_engine.py
 
-      - name: Executar automação principal
+      - name: Executar Knowledge Engine em modo normal
+        if: >
+          github.event_name != 'workflow_dispatch' ||
+          inputs.dry_run != true
         run: |
-          python scripts/atlas_automation.py
+          python scripts/knowledge_engine.py
 
-      - name: Executar inventário completo
+      - name: Executar Knowledge Engine em modo de simulação
+        if: >
+          github.event_name == 'workflow_dispatch' &&
+          inputs.dry_run == true
         run: |
-          python scripts/atlas_parser.py
-
-      - name: Executar análise de dependências
-        run: |
-          python scripts/atlas_dependency_engine.py
-
-      - name: Sincronizar pastas e subpastas derivadas
-        env:
-          EDI_ATLAS_SYNC_APPLY: "true"
-        run: |
-          python scripts/atlas_sync_engine.py --apply
-
-      - name: Atualizar inventário após sincronização
-        run: |
-          python scripts/atlas_parser.py
-
-      - name: Executar validação completa
-        run: |
-          python scripts/atlas_validation_engine.py
+          python scripts/knowledge_engine.py --dry-run
 
       - name: Remover arquivos temporários do Python
+        shell: bash
         run: |
-          find . -type d -name "__pycache__" -prune -exec rm -rf {} +
-          find . -type f -name "*.pyc" -delete
+          find . \
+            -type d \
+            -name "__pycache__" \
+            -prune \
+            -exec rm -rf {} +
+
+          find . \
+            -type f \
+            -name "*.pyc" \
+            -delete
 
       - name: Exibir alterações geradas
+        shell: bash
         run: |
           git status --short
 
@@ -100,11 +100,13 @@ jobs:
 
       - name: Configurar identidade do bot
         if: steps.changes.outputs.changed == 'true'
+        shell: bash
         run: |
           git config user.name "EDI Atlas Bot"
-          git config user.email "edudata-atlas-bot@users.noreply.github.com"
+          git config user.email \
+            "edudata-atlas-bot@users.noreply.github.com"
 
-      - name: Preparar documentos principais
+      - name: Preparar documentos gerados na raiz
         if: steps.changes.outputs.changed == 'true'
         shell: bash
         run: |
@@ -122,6 +124,8 @@ jobs:
             "METADATA_REPORT.md"
             "BROKEN_LINKS.md"
             "DUPLICATED_IDS.md"
+            "KNOWLEDGE_ENGINE_REPORT.md"
+            "KNOWLEDGE_ENGINE_REPORT.json"
           )
 
           for file in "${files[@]}"; do
@@ -130,25 +134,38 @@ jobs:
             fi
           done
 
-      - name: Preparar índices das subpastas
+      - name: Preparar índices automáticos das subpastas
         if: steps.changes.outputs.changed == 'true'
         shell: bash
         run: |
-          for directory in \
-            "07_KNOWLEDGE" \
-            "09_COLLECTION" \
+          directories=(
+            "07_KNOWLEDGE"
+            "09_COLLECTION"
             "11_PUBLISHER"
-          do
+          )
+
+          for directory in "${directories[@]}"; do
             if [ -d "$directory" ]; then
-              find "$directory" \
-                -type f \
-                -name "AUTO_INDEX.md" \
-                -print0 |
               while IFS= read -r -d '' file; do
                 git add "$file"
-              done
+              done < <(
+                find "$directory" \
+                  -type f \
+                  -name "AUTO_INDEX.md" \
+                  -print0
+              )
             fi
           done
+
+      - name: Preparar remoções de índices obsoletos
+        if: steps.changes.outputs.changed == 'true'
+        shell: bash
+        run: |
+          git add -u \
+            "07_KNOWLEDGE" \
+            "09_COLLECTION" \
+            "11_PUBLISHER" \
+            2>/dev/null || true
 
       - name: Registrar atualização automática
         if: steps.changes.outputs.changed == 'true'
@@ -160,12 +177,22 @@ jobs:
             echo "Nenhuma alteração documental para registrar."
           else
             git commit \
-              -m "docs(atlas): sincronizar, validar e atualizar conhecimento"
+              -m "docs(atlas): executar EDI Knowledge Engine"
 
             echo "created=true" >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Atualizar branch antes do envio
+        if: steps.commit.outputs.created == 'true'
+        shell: bash
+        run: |
+          git pull \
+            --rebase \
+            --autostash \
+            origin main
+
       - name: Enviar alterações para main
         if: steps.commit.outputs.created == 'true'
+        shell: bash
         run: |
           git push origin main
