@@ -2,9 +2,9 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-07-31 23:59 UTC
+**Gerado em:** 2026-08-01 00:01 UTC
 
-**Documentos analisados:** 81
+**Documentos analisados:** 83
 
 **Relações identificadas:** 2259
 

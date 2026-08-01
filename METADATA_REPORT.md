@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Atualizado em:** 2026-07-31 23:59 UTC
+**Atualizado em:** 2026-08-01 00:01 UTC
 
 ## `00_FOUNDATION/ORG-001_ORGANIZATION.md`
 
@@ -720,6 +720,30 @@ Metadados ausentes:
 - `document_type`
 - `tags`
 
+## `KNOWLEDGE_ENGINE_REPORT.json`
+
+Metadados ausentes:
+
+- `document_id`
+- `status`
+- `version`
+- `author`
+- `reviewed`
+- `document_type`
+- `tags`
+
+## `KNOWLEDGE_ENGINE_REPORT.md`
+
+Metadados ausentes:
+
+- `document_id`
+- `status`
+- `version`
+- `author`
+- `reviewed`
+- `document_type`
+- `tags`
+
 ## `README.md`
 
 Metadados ausentes:
@@ -746,4 +770,4 @@ Metadados ausentes:
 
 ## Resumo
 
-- Documentos com metadados incompletos: **76**
+- Documentos com metadados incompletos: **78**

@@ -2,17 +2,17 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Executado em:** 2026-07-31 23:59 UTC
+**Executado em:** 2026-08-01 00:01 UTC
 
-**Documentos analisados:** 81
+**Documentos analisados:** 83
 
 **Saúde do Atlas:** 0/100 — **Muito crítico**
 
 ## Resumo
 
 - Erros: **164**
-- Avisos: **259**
-- Informações: **5**
+- Avisos: **273**
+- Informações: **7**
 
 ## Erros
 
@@ -428,6 +428,20 @@
 - `DECISIONS/DEC-0001.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
 - `DECISIONS/DEC-0002.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
 - `DECISIONS/DEC-0003.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `author`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `document_id`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `document_type`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `status`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `version`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `status`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `version`.
 - `README.md` — **metadados** — Metadado obrigatório ausente: `author`.
 - `README.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
 - `README.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
@@ -448,5 +462,7 @@
 - `07_KNOWLEDGE/AUTO_INDEX.md` — **órfãos** — Documento não é referenciado por links ou dependências declaradas.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **órfãos** — Documento não é referenciado por links ou dependências declaradas.
 - `11_PUBLISHER/AUTO_INDEX.md` — **órfãos** — Documento não é referenciado por links ou dependências declaradas.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **órfãos** — Documento não é referenciado por links ou dependências declaradas.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **órfãos** — Documento não é referenciado por links ou dependências declaradas.
 - `README.md` — **órfãos** — Documento não é referenciado por links ou dependências declaradas.
 - `STATUS_OFICIAL.md` — **órfãos** — Documento não é referenciado por links ou dependências declaradas.

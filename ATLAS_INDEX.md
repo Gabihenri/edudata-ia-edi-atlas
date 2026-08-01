@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo GitHub Actions.
 
-**Última atualização automática:** 2026-07-31 23:59 UTC
+**Última atualização automática:** 2026-08-01 00:01 UTC
 
 ## Arquitetura oficial
 
@@ -165,10 +165,11 @@ _Nenhum documento Markdown encontrado._
 - [Relatório de Impacto de Alterações](CHANGE_IMPACT_REPORT.md)
 - [Grafo de Dependências do EDI Atlas](DEPENDENCY_GRAPH.md)
 - [IDs Duplicados no EDI Atlas](DUPLICATED_IDS.md)
+- [Relatório do EDI Knowledge Engine](KNOWLEDGE_ENGINE_REPORT.md)
 - [Relatório de Metadados do EDI Atlas](METADATA_REPORT.md)
 
 ## Resumo quantitativo
 
 - Seções oficiais previstas: **14**
-- Documentos indexados: **82**
-- Documentos adicionais: **8**
+- Documentos indexados: **83**
+- Documentos adicionais: **9**

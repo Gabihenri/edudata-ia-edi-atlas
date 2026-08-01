@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-07-31 23:59:28 UTC
+**Executado em:** 2026-08-01 00:01:28 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.539 segundos
+**Duração total:** 0.481 segundos
 
 ## Resumo
 
@@ -33,9 +33,9 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-07-31 23:59:28 UTC
-- Término: 2026-07-31 23:59:28 UTC
-- Duração: 0.088 segundos
+- Início: 2026-08-01 00:01:28 UTC
+- Término: 2026-08-01 00:01:29 UTC
+- Duração: 0.087 segundos
 
 #### Comando
 
@@ -66,9 +66,9 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-07-31 23:59:28 UTC
-- Término: 2026-07-31 23:59:29 UTC
-- Duração: 0.130 segundos
+- Início: 2026-08-01 00:01:29 UTC
+- Término: 2026-08-01 00:01:29 UTC
+- Duração: 0.115 segundos
 
 #### Comando
 
@@ -80,7 +80,7 @@ Avisos encontrados:
 
 ```text
 Varredura completa do EDI Atlas concluída.
-Documentos encontrados: 81
+Documentos encontrados: 83
 Inventário Markdown: ATLAS_INVENTORY.md
 Inventário JSON: ATLAS_INVENTORY.json
 ```
@@ -90,9 +90,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-07-31 23:59:29 UTC
-- Término: 2026-07-31 23:59:29 UTC
-- Duração: 0.077 segundos
+- Início: 2026-08-01 00:01:29 UTC
+- Término: 2026-08-01 00:01:29 UTC
+- Duração: 0.076 segundos
 
 #### Comando
 
@@ -104,9 +104,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 
 ```text
 Análise de dependências do EDI Atlas concluída.
-Documentos analisados: 81
+Documentos analisados: 83
 Relações identificadas: 2259
-Arquivos alterados: 1
+Arquivos alterados: 10
 Arquivo gerado: DEPENDENCY_GRAPH.md
 Arquivo gerado: CHANGE_IMPACT_REPORT.md
 ```
@@ -116,9 +116,9 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-07-31 23:59:29 UTC
-- Término: 2026-07-31 23:59:29 UTC
-- Duração: 0.059 segundos
+- Início: 2026-08-01 00:01:29 UTC
+- Término: 2026-08-01 00:01:29 UTC
+- Duração: 0.062 segundos
 
 #### Comando
 
@@ -131,7 +131,7 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 ```text
 EDI Atlas Sync Engine concluído.
 Modo: APPLY
-Documentos analisados: 81
+Documentos analisados: 83
 Ações identificadas: 3
 Relatório: ATLAS_SYNC_REPORT.md
 ```
@@ -141,9 +141,9 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-07-31 23:59:29 UTC
-- Término: 2026-07-31 23:59:29 UTC
-- Duração: 0.092 segundos
+- Início: 2026-08-01 00:01:29 UTC
+- Término: 2026-08-01 00:01:29 UTC
+- Duração: 0.082 segundos
 
 #### Comando
 
@@ -155,7 +155,7 @@ Relatório: ATLAS_SYNC_REPORT.md
 
 ```text
 Varredura completa do EDI Atlas concluída.
-Documentos encontrados: 81
+Documentos encontrados: 83
 Inventário Markdown: ATLAS_INVENTORY.md
 Inventário JSON: ATLAS_INVENTORY.json
 ```
@@ -165,9 +165,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-07-31 23:59:29 UTC
-- Término: 2026-07-31 23:59:29 UTC
-- Duração: 0.092 segundos
+- Início: 2026-08-01 00:01:29 UTC
+- Término: 2026-08-01 00:01:29 UTC
+- Duração: 0.058 segundos
 
 #### Comando
 
@@ -179,10 +179,10 @@ Inventário JSON: ATLAS_INVENTORY.json
 
 ```text
 EDI Atlas Validation Engine concluído.
-Documentos analisados: 81
+Documentos analisados: 83
 Erros: 164
-Avisos: 259
-Informações: 5
+Avisos: 273
+Informações: 7
 Saúde do Atlas: 0/100
 ```
 
@@ -201,11 +201,12 @@ Saúde do Atlas: 0/100
 - `METADATA_REPORT.md`
 - `BROKEN_LINKS.md`
 - `DUPLICATED_IDS.md`
+- `KNOWLEDGE_ENGINE_REPORT.md`
+- `KNOWLEDGE_ENGINE_REPORT.json`
 
 ## Arquivos gerados ausentes
 
-- `KNOWLEDGE_ENGINE_REPORT.md`
-- `KNOWLEDGE_ENGINE_REPORT.json`
+- Nenhum arquivo esperado está ausente.
 
 ## Governança
 

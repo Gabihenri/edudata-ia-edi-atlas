@@ -2,9 +2,9 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-07-31 23:59 UTC
+**Gerado em:** 2026-08-01 00:01 UTC
 
-**Total de documentos:** 81
+**Total de documentos:** 83
 
 ## 00_FOUNDATION
 
@@ -916,7 +916,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **30**
-- Tamanho: **961 bytes**
+- Tamanho: **963 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -989,6 +989,38 @@ Documentos encontrados: **1**
 - Revisado: `não informado`
 - Linhas: **9**
 - Tamanho: **191 bytes**
+
+## KNOWLEDGE_ENGINE_REPORT.json
+
+Documentos encontrados: **1**
+
+### [KNOWLEDGE ENGINE REPORT](KNOWLEDGE_ENGINE_REPORT.json)
+
+- Caminho: `KNOWLEDGE_ENGINE_REPORT.json`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **122**
+- Tamanho: **5161 bytes**
+
+## KNOWLEDGE_ENGINE_REPORT.md
+
+Documentos encontrados: **1**
+
+### [Relatório do EDI Knowledge Engine](KNOWLEDGE_ENGINE_REPORT.md)
+
+- Caminho: `KNOWLEDGE_ENGINE_REPORT.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **215**
+- Tamanho: **5294 bytes**
 
 ## METADATA_REPORT.md
 
