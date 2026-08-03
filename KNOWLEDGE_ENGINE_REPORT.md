@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-08-01 00:10:38 UTC
+**Executado em:** 2026-08-03 12:17:27 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.508 segundos
+**Duração total:** 0.478 segundos
 
 ## Resumo
 
@@ -33,9 +33,9 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-08-01 00:10:38 UTC
-- Término: 2026-08-01 00:10:38 UTC
-- Duração: 0.085 segundos
+- Início: 2026-08-03 12:17:27 UTC
+- Término: 2026-08-03 12:17:27 UTC
+- Duração: 0.093 segundos
 
 #### Comando
 
@@ -66,9 +66,9 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-01 00:10:38 UTC
-- Término: 2026-08-01 00:10:38 UTC
-- Duração: 0.100 segundos
+- Início: 2026-08-03 12:17:27 UTC
+- Término: 2026-08-03 12:17:27 UTC
+- Duração: 0.107 segundos
 
 #### Comando
 
@@ -90,9 +90,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-01 00:10:38 UTC
-- Término: 2026-08-01 00:10:38 UTC
-- Duração: 0.077 segundos
+- Início: 2026-08-03 12:17:27 UTC
+- Término: 2026-08-03 12:17:27 UTC
+- Duração: 0.075 segundos
 
 #### Comando
 
@@ -116,8 +116,8 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-01 00:10:38 UTC
-- Término: 2026-08-01 00:10:38 UTC
+- Início: 2026-08-03 12:17:27 UTC
+- Término: 2026-08-03 12:17:27 UTC
 - Duração: 0.061 segundos
 
 #### Comando
@@ -141,9 +141,9 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-01 00:10:38 UTC
-- Término: 2026-08-01 00:10:39 UTC
-- Duração: 0.090 segundos
+- Início: 2026-08-03 12:17:27 UTC
+- Término: 2026-08-03 12:17:27 UTC
+- Duração: 0.081 segundos
 
 #### Comando
 
@@ -165,9 +165,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-01 00:10:39 UTC
-- Término: 2026-08-01 00:10:39 UTC
-- Duração: 0.093 segundos
+- Início: 2026-08-03 12:17:27 UTC
+- Término: 2026-08-03 12:17:27 UTC
+- Duração: 0.060 segundos
 
 #### Comando
 
