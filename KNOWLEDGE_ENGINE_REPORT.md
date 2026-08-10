@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-08-03 12:17:27 UTC
+**Executado em:** 2026-08-10 10:12:26 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.478 segundos
+**Duração total:** 0.437 segundos
 
 ## Resumo
 
@@ -33,9 +33,9 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-08-03 12:17:27 UTC
-- Término: 2026-08-03 12:17:27 UTC
-- Duração: 0.093 segundos
+- Início: 2026-08-10 10:12:26 UTC
+- Término: 2026-08-10 10:12:26 UTC
+- Duração: 0.066 segundos
 
 #### Comando
 
@@ -66,9 +66,9 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-03 12:17:27 UTC
-- Término: 2026-08-03 12:17:27 UTC
-- Duração: 0.107 segundos
+- Início: 2026-08-10 10:12:26 UTC
+- Término: 2026-08-10 10:12:26 UTC
+- Duração: 0.084 segundos
 
 #### Comando
 
@@ -90,9 +90,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-03 12:17:27 UTC
-- Término: 2026-08-03 12:17:27 UTC
-- Duração: 0.075 segundos
+- Início: 2026-08-10 10:12:26 UTC
+- Término: 2026-08-10 10:12:27 UTC
+- Duração: 0.080 segundos
 
 #### Comando
 
@@ -116,9 +116,9 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-03 12:17:27 UTC
-- Término: 2026-08-03 12:17:27 UTC
-- Duração: 0.061 segundos
+- Início: 2026-08-10 10:12:27 UTC
+- Término: 2026-08-10 10:12:27 UTC
+- Duração: 0.062 segundos
 
 #### Comando
 
@@ -141,9 +141,9 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-03 12:17:27 UTC
-- Término: 2026-08-03 12:17:27 UTC
-- Duração: 0.081 segundos
+- Início: 2026-08-10 10:12:27 UTC
+- Término: 2026-08-10 10:12:27 UTC
+- Duração: 0.083 segundos
 
 #### Comando
 
@@ -165,8 +165,8 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-03 12:17:27 UTC
-- Término: 2026-08-03 12:17:27 UTC
+- Início: 2026-08-10 10:12:27 UTC
+- Término: 2026-08-10 10:12:27 UTC
 - Duração: 0.060 segundos
 
 #### Comando
