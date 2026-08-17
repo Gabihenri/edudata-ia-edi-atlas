@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-08-10 10:12:26 UTC
+**Executado em:** 2026-08-17 09:35:27 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.437 segundos
+**Duração total:** 0.478 segundos
 
 ## Resumo
 
@@ -33,14 +33,14 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-08-10 10:12:26 UTC
-- Término: 2026-08-10 10:12:26 UTC
-- Duração: 0.066 segundos
+- Início: 2026-08-17 09:35:27 UTC
+- Término: 2026-08-17 09:35:27 UTC
+- Duração: 0.081 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.14/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_automation.py
+/opt/hostedtoolcache/Python/3.13.15/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_automation.py
 ```
 
 #### Saída padrão
@@ -66,14 +66,14 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-10 10:12:26 UTC
-- Término: 2026-08-10 10:12:26 UTC
-- Duração: 0.084 segundos
+- Início: 2026-08-17 09:35:27 UTC
+- Término: 2026-08-17 09:35:27 UTC
+- Duração: 0.105 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.14/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_parser.py
+/opt/hostedtoolcache/Python/3.13.15/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_parser.py
 ```
 
 #### Saída padrão
@@ -90,14 +90,14 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-10 10:12:26 UTC
-- Término: 2026-08-10 10:12:27 UTC
-- Duração: 0.080 segundos
+- Início: 2026-08-17 09:35:27 UTC
+- Término: 2026-08-17 09:35:27 UTC
+- Duração: 0.091 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.14/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_dependency_engine.py
+/opt/hostedtoolcache/Python/3.13.15/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_dependency_engine.py
 ```
 
 #### Saída padrão
@@ -116,14 +116,14 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-10 10:12:27 UTC
-- Término: 2026-08-10 10:12:27 UTC
-- Duração: 0.062 segundos
+- Início: 2026-08-17 09:35:27 UTC
+- Término: 2026-08-17 09:35:27 UTC
+- Duração: 0.061 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.14/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_sync_engine.py --apply
+/opt/hostedtoolcache/Python/3.13.15/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_sync_engine.py --apply
 ```
 
 #### Saída padrão
@@ -141,14 +141,14 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-10 10:12:27 UTC
-- Término: 2026-08-10 10:12:27 UTC
-- Duração: 0.083 segundos
+- Início: 2026-08-17 09:35:27 UTC
+- Término: 2026-08-17 09:35:27 UTC
+- Duração: 0.082 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.14/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_parser.py
+/opt/hostedtoolcache/Python/3.13.15/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_parser.py
 ```
 
 #### Saída padrão
@@ -165,14 +165,14 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-08-10 10:12:27 UTC
-- Término: 2026-08-10 10:12:27 UTC
-- Duração: 0.060 segundos
+- Início: 2026-08-17 09:35:27 UTC
+- Término: 2026-08-17 09:35:27 UTC
+- Duração: 0.057 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.14/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_validation_engine.py
+/opt/hostedtoolcache/Python/3.13.15/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_validation_engine.py
 ```
 
 #### Saída padrão
