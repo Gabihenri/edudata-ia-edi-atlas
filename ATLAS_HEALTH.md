@@ -2,7 +2,7 @@
 
 > Indicador automático de qualidade documental.
 
-**Atualizado em:** 2026-08-24 09:40 UTC
+**Atualizado em:** 2026-08-31 16:38 UTC
 
 ## Pontuação: 0/100
 

@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Atualizado em:** 2026-08-24 09:40 UTC
+**Atualizado em:** 2026-08-31 16:38 UTC
 
 ## `00_FOUNDATION/ORG-001_ORGANIZATION.md`
 
