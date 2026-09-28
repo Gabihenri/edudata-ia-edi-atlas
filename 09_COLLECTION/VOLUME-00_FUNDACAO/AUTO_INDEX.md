@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Atlas Sync Engine.
 
-**Última sincronização:** 2026-09-21 15:35 UTC
+**Última sincronização:** 2026-09-28 17:16 UTC
 
 **Documentos nesta pasta:** 12
 
