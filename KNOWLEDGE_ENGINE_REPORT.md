@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-09-28 17:16:32 UTC
+**Executado em:** 2026-10-05 17:45:00 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.478 segundos
+**Duração total:** 0.456 segundos
 
 ## Resumo
 
@@ -33,9 +33,9 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-09-28 17:16:32 UTC
-- Término: 2026-09-28 17:16:32 UTC
-- Duração: 0.090 segundos
+- Início: 2026-10-05 17:45:00 UTC
+- Término: 2026-10-05 17:45:00 UTC
+- Duração: 0.077 segundos
 
 #### Comando
 
@@ -66,9 +66,9 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-09-28 17:16:32 UTC
-- Término: 2026-09-28 17:16:32 UTC
-- Duração: 0.112 segundos
+- Início: 2026-10-05 17:45:00 UTC
+- Término: 2026-10-05 17:45:00 UTC
+- Duração: 0.100 segundos
 
 #### Comando
 
@@ -90,9 +90,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-09-28 17:16:32 UTC
-- Término: 2026-09-28 17:16:32 UTC
-- Duração: 0.075 segundos
+- Início: 2026-10-05 17:45:00 UTC
+- Término: 2026-10-05 17:45:00 UTC
+- Duração: 0.077 segundos
 
 #### Comando
 
@@ -116,8 +116,8 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-09-28 17:16:32 UTC
-- Término: 2026-09-28 17:16:32 UTC
+- Início: 2026-10-05 17:45:00 UTC
+- Término: 2026-10-05 17:45:00 UTC
 - Duração: 0.061 segundos
 
 #### Comando
@@ -141,8 +141,8 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-09-28 17:16:32 UTC
-- Término: 2026-09-28 17:16:33 UTC
+- Início: 2026-10-05 17:45:00 UTC
+- Término: 2026-10-05 17:45:00 UTC
 - Duração: 0.082 segundos
 
 #### Comando
@@ -165,9 +165,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-09-28 17:16:33 UTC
-- Término: 2026-09-28 17:16:33 UTC
-- Duração: 0.057 segundos
+- Início: 2026-10-05 17:45:00 UTC
+- Término: 2026-10-05 17:45:00 UTC
+- Duração: 0.058 segundos
 
 #### Comando
 

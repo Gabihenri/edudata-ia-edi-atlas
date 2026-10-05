@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-09-28 17:16 UTC
+**Gerado em:** 2026-10-05 17:45 UTC
 
 **Documentos analisados:** 83
 
