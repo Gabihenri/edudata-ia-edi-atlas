@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-10-19 16:07 UTC
+**Gerado em:** 2026-10-26 15:45 UTC
 
 **Total de documentos:** 83
 
@@ -1004,7 +1004,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5161 bytes**
+- Tamanho: **5160 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
