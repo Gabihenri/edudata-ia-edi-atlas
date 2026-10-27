@@ -231,7 +231,6 @@ Produtos Especializados
 - O EDI Atlas é a fonte oficial do patrimônio intelectual.
 - O EDI Publisher e a EduData Press integram a infraestrutura editorial.
 - O template LaTeX da EduData Press está em homologação.
-- O EDI Knowledge Engine coordena a automação documental do Atlas; a execução efetiva deve ser confirmada pelos relatórios do workflow.
 
 ## Prioridade operacional
 

@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Atlas Sync Engine.
 
-**Executado em:** 2026-10-26 15:45 UTC
+**Executado em:** 2026-10-27 09:26 UTC
 
 **Modo:** `APPLY`
 
@@ -12,9 +12,9 @@
 
 ## Resumo do impacto
 
-- Total de documentos impactados: **23**
+- Total de documentos impactados: **0**
 - Exigem revisão humana: **0**
-- Podem ser sincronizados: **23**
+- Podem ser sincronizados: **0**
 
 ## Ações
 
