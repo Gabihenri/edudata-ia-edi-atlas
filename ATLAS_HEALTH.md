@@ -2,22 +2,22 @@
 
 > Indicador automático de qualidade documental.
 
-**Atualizado em:** 2026-10-27 09:37 UTC
+**Atualizado em:** 2026-10-27 09:38 UTC
 
-## Pontuação: 0/100
+## Pontuação: 11/100
 
 **Classificação:** Muito crítico
 
 ## Indicadores
 
 - Documentos analisados: **85**
-- Erros: **178**
-- Avisos: **273**
+- Erros: **62**
+- Avisos: **143**
 - Informações: **7**
 
 ## Ocorrências por categoria
 
-- metadados: **447**
+- metadados: **201**
 - órfãos: **7**
 - duplicidade: **4**
 

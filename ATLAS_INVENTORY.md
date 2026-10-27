@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-10-27 09:37 UTC
+**Gerado em:** 2026-10-27 09:38 UTC
 
 **Total de documentos:** 85
 
@@ -940,7 +940,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **30**
-- Tamanho: **963 bytes**
+- Tamanho: **961 bytes**
 
 ## BROKEN_LINKS.md
 

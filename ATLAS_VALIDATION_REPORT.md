@@ -2,198 +2,82 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Executado em:** 2026-10-27 09:37 UTC
+**Executado em:** 2026-10-27 09:38 UTC
 
 **Documentos analisados:** 85
 
-**Saúde do Atlas:** 0/100 — **Muito crítico**
+**Saúde do Atlas:** 11/100 — **Muito crítico**
 
 ## Resumo
 
-- Erros: **178**
-- Avisos: **273**
+- Erros: **62**
+- Avisos: **143**
 - Informações: **7**
 
 ## Erros
 
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `00_FOUNDATION/ORG-005_GOVERNANCE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-005_GOVERNANCE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-005_GOVERNANCE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-005_GOVERNANCE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `00_FOUNDATION/ORG-006_FOUNDING_PRINCIPLES.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-006_FOUNDING_PRINCIPLES.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-006_FOUNDING_PRINCIPLES.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-006_FOUNDING_PRINCIPLES.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `00_FOUNDATION/ORG-007_ROADMAP.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-007_ROADMAP.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-007_ROADMAP.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-007_ROADMAP.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `00_FOUNDATION/ORG-008_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-008_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-008_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-008_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `00_FOUNDATION/ORG-010_DOCUMENTATION_STANDARD.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `00_FOUNDATION/ORG-010_DOCUMENTATION_STANDARD.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `00_FOUNDATION/ORG-010_DOCUMENTATION_STANDARD.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `00_FOUNDATION/ORG-010_DOCUMENTATION_STANDARD.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-001_FRAMEWORK.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-001_FRAMEWORK.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-001_FRAMEWORK.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-001_FRAMEWORK.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-002_CARTA_MAGNA.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-002_CARTA_MAGNA.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-002_CARTA_MAGNA.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-002_CARTA_MAGNA.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-003_MANIFESTO.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-003_MANIFESTO.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-003_MANIFESTO.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-003_MANIFESTO.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-004_PRINCIPLES.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-004_PRINCIPLES.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-004_PRINCIPLES.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-004_PRINCIPLES.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-005_ONTOLOGY.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-005_ONTOLOGY.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-005_ONTOLOGY.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-005_ONTOLOGY.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-006_TAXONOMY.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-006_TAXONOMY.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-006_TAXONOMY.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-006_TAXONOMY.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-007_GLOSSARY.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-007_GLOSSARY.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-007_GLOSSARY.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-007_GLOSSARY.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-008_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-008_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-008_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-008_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-009_KNOWLEDGE_MODEL.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-009_KNOWLEDGE_MODEL.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-009_KNOWLEDGE_MODEL.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-009_KNOWLEDGE_MODEL.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-001_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-001_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-001_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-001_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-002_CORE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-002_CORE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-002_CORE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-002_CORE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-003_ENGINES.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-003_ENGINES.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-003_ENGINES.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-003_ENGINES.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-004_MEMORY.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-004_MEMORY.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-004_MEMORY.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-004_MEMORY.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-005_CONTEXT.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-005_CONTEXT.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-005_CONTEXT.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-005_CONTEXT.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-006_AGENTS.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-006_AGENTS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-006_AGENTS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-006_AGENTS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-007_WORKFLOWS.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-007_WORKFLOWS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-007_WORKFLOWS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-007_WORKFLOWS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-008_API.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-008_API.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-008_API.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-008_API.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `02_EIOS/EIOS-009_PROVIDERS.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `02_EIOS/EIOS-009_PROVIDERS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `02_EIOS/EIOS-009_PROVIDERS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `02_EIOS/EIOS-009_PROVIDERS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `owner`.
+- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `owner`.
+- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `owner`.
+- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `owner`.
+- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `owner`.
+- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `owner`.
+- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `DECISIONS/DEC-0001.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `DECISIONS/DEC-0001.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `DECISIONS/DEC-0001.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `DECISIONS/DEC-0001.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `DECISIONS/DEC-0002.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `DECISIONS/DEC-0002.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `DECISIONS/DEC-0002.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `DECISIONS/DEC-0002.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `DECISIONS/DEC-0003.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `DECISIONS/DEC-0003.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `DECISIONS/DEC-0003.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `DECISIONS/DEC-0003.md` — **metadados** — Metadado obrigatório ausente: `tags`.
 
 ## Avisos
 
@@ -201,274 +85,144 @@
 - `07_KNOWLEDGE/KO-0004_FRAMEWORK.md` — **duplicidade** — Título duplicado: `framework edi`.
 - `07_KNOWLEDGE/KO-0006_PLATFORM.md` — **duplicidade** — Título duplicado: `plataforma operacional de inteligência educacional`.
 - `ADR/ADR-0004_Platform.md` — **duplicidade** — Título duplicado: `plataforma operacional de inteligência educacional`.
-- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `00_FOUNDATION/ORG-005_GOVERNANCE.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `00_FOUNDATION/ORG-006_FOUNDING_PRINCIPLES.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `00_FOUNDATION/ORG-007_ROADMAP.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `00_FOUNDATION/ORG-008_CHANGELOG.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `00_FOUNDATION/ORG-010_DOCUMENTATION_STANDARD.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `01_FRAMEWORK_EDI/FW-001_FRAMEWORK.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-002_CARTA_MAGNA.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-003_MANIFESTO.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-004_PRINCIPLES.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-005_ONTOLOGY.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-006_TAXONOMY.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-007_GLOSSARY.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-008_ARCHITECTURE.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-009_KNOWLEDGE_MODEL.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `02_EIOS/EIOS-001_ARCHITECTURE.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `02_EIOS/EIOS-002_CORE.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `02_EIOS/EIOS-003_ENGINES.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `02_EIOS/EIOS-004_MEMORY.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `02_EIOS/EIOS-005_CONTEXT.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `02_EIOS/EIOS-006_AGENTS.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `02_EIOS/EIOS-007_WORKFLOWS.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `02_EIOS/EIOS-008_API.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `02_EIOS/EIOS-009_PROVIDERS.md` — **metadados** — Status fora da lista recomendada: `Em Desenvolvimento`.
-- `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `07_KNOWLEDGE/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `07_KNOWLEDGE/KO-0000_INDEX.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0000_INDEX.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0000_INDEX.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0000_INDEX.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0000_INDEX.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0001_EVIDENCE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0001_EVIDENCE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0001_EVIDENCE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0001_EVIDENCE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0001_EVIDENCE.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0002_DEVELOPMENT.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0002_DEVELOPMENT.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0002_DEVELOPMENT.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0002_DEVELOPMENT.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0002_DEVELOPMENT.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0003_INTELLIGENCE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0003_INTELLIGENCE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0003_INTELLIGENCE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0003_INTELLIGENCE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0003_INTELLIGENCE.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0004_FRAMEWORK.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0004_FRAMEWORK.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0004_FRAMEWORK.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0004_FRAMEWORK.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0004_FRAMEWORK.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0005_EIOS.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0005_EIOS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0005_EIOS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0005_EIOS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0005_EIOS.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0006_PLATFORM.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0006_PLATFORM.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0006_PLATFORM.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0006_PLATFORM.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0006_PLATFORM.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0007_PRODUCT.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0007_PRODUCT.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0007_PRODUCT.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0007_PRODUCT.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0007_PRODUCT.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0008_TEACHER.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0008_TEACHER.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0008_TEACHER.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0008_TEACHER.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0008_TEACHER.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0009_SCHOOL.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0009_SCHOOL.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0009_SCHOOL.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0009_SCHOOL.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0009_SCHOOL.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `07_KNOWLEDGE/KO-0010_LEARNING.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `07_KNOWLEDGE/KO-0010_LEARNING.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `07_KNOWLEDGE/KO-0010_LEARNING.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `07_KNOWLEDGE/KO-0010_LEARNING.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `07_KNOWLEDGE/KO-0010_LEARNING.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/00_INDEX.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/00_INDEX.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/00_INDEX.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/00_INDEX.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/00_INDEX.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `07_KNOWLEDGE/KO-0007_PRODUCT.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `07_KNOWLEDGE/KO-0007_PRODUCT.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `07_KNOWLEDGE/KO-0008_TEACHER.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `07_KNOWLEDGE/KO-0008_TEACHER.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `07_KNOWLEDGE/KO-0009_SCHOOL.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `07_KNOWLEDGE/KO-0009_SCHOOL.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `07_KNOWLEDGE/KO-0010_LEARNING.md` — **metadados** — Metadado obrigatório ausente: `created`.
+- `07_KNOWLEDGE/KO-0010_LEARNING.md` — **metadados** — Metadado obrigatório ausente: `updated`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `11_PUBLISHER/AUTO_INDEX.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `11_PUBLISHER/PUB-001_EDITORIAL_SPECIFICATION.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-001_EDITORIAL_SPECIFICATION.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-001_EDITORIAL_SPECIFICATION.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-001_EDITORIAL_SPECIFICATION.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-001_EDITORIAL_SPECIFICATION.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `11_PUBLISHER/PUB-002_LATEX_TEMPLATE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-002_LATEX_TEMPLATE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-002_LATEX_TEMPLATE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-002_LATEX_TEMPLATE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-002_LATEX_TEMPLATE.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `11_PUBLISHER/PUB-003_COLLECTIONS.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-003_COLLECTIONS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-003_COLLECTIONS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-003_COLLECTIONS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-003_COLLECTIONS.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `11_PUBLISHER/PUB-004_WRITING_STYLE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-004_WRITING_STYLE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-004_WRITING_STYLE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-004_WRITING_STYLE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-004_WRITING_STYLE.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `11_PUBLISHER/PUB-005_FIGURES.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-005_FIGURES.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-005_FIGURES.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-005_FIGURES.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-005_FIGURES.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `11_PUBLISHER/PUB-006_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-006_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-006_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-006_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-006_REFERENCES.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `11_PUBLISHER/PUB-007_BOOK_PIPELINE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-007_BOOK_PIPELINE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-007_BOOK_PIPELINE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-007_BOOK_PIPELINE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-007_BOOK_PIPELINE.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `11_PUBLISHER/PUB-008_PROMPTS.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-008_PROMPTS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-008_PROMPTS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-008_PROMPTS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-008_PROMPTS.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `11_PUBLISHER/PUB-009_BOOK_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `author`.
-- `11_PUBLISHER/PUB-009_BOOK_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `11_PUBLISHER/PUB-009_BOOK_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
-- `11_PUBLISHER/PUB-009_BOOK_ARCHITECTURE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
-- `11_PUBLISHER/PUB-009_BOOK_ARCHITECTURE.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
 - `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Status fora da lista recomendada: `Aceito`.
 - `ADR/ADR-0002_EIOS.md` — **metadados** — Status fora da lista recomendada: `Aceito`.
 - `ADR/ADR-0003_Architecture.md` — **metadados** — Status fora da lista recomendada: `Aceito`.
 - `ADR/ADR-0004_Platform.md` — **metadados** — Status fora da lista recomendada: `Aceito`.
 - `ADR/ADR-0005_Products.md` — **metadados** — Status fora da lista recomendada: `Aceito`.
-- `DECISIONS/DEC-0001.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `DECISIONS/DEC-0002.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `DECISIONS/DEC-0003.md` — **metadados** — Status fora da lista recomendada: `Oficial`.
-- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `author`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `created`.
 - `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `status`.
-- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `KNOWLEDGE_ENGINE_REPORT.json` — **metadados** — Metadado obrigatório ausente: `version`.
-- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `KNOWLEDGE_ENGINE_REPORT.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `README.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `README.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `README.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `README.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `README.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `README.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `README.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `README.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `README.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `README.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `README.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `classification`.
+- `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
-- `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `owner`.
 - `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `STATUS_OFICIAL.md` — **metadados** — Metadado obrigatório ausente: `version`.
 
 ## Informações

@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-10-27 09:37:18 UTC
+**Executado em:** 2026-10-27 09:38:36 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.472 segundos
+**Duração total:** 0.406 segundos
 
 ## Resumo
 
@@ -33,9 +33,9 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-10-27 09:37:18 UTC
-- Término: 2026-10-27 09:37:18 UTC
-- Duração: 0.084 segundos
+- Início: 2026-10-27 09:38:36 UTC
+- Término: 2026-10-27 09:38:37 UTC
+- Duração: 0.056 segundos
 
 #### Comando
 
@@ -66,9 +66,9 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:37:18 UTC
-- Término: 2026-10-27 09:37:19 UTC
-- Duração: 0.106 segundos
+- Início: 2026-10-27 09:38:37 UTC
+- Término: 2026-10-27 09:38:37 UTC
+- Duração: 0.082 segundos
 
 #### Comando
 
@@ -90,9 +90,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:37:19 UTC
-- Término: 2026-10-27 09:37:19 UTC
-- Duração: 0.079 segundos
+- Início: 2026-10-27 09:38:37 UTC
+- Término: 2026-10-27 09:38:37 UTC
+- Duração: 0.073 segundos
 
 #### Comando
 
@@ -116,9 +116,9 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:37:19 UTC
-- Término: 2026-10-27 09:37:19 UTC
-- Duração: 0.062 segundos
+- Início: 2026-10-27 09:38:37 UTC
+- Término: 2026-10-27 09:38:37 UTC
+- Duração: 0.058 segundos
 
 #### Comando
 
@@ -141,9 +141,9 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:37:19 UTC
-- Término: 2026-10-27 09:37:19 UTC
-- Duração: 0.082 segundos
+- Início: 2026-10-27 09:38:37 UTC
+- Término: 2026-10-27 09:38:37 UTC
+- Duração: 0.080 segundos
 
 #### Comando
 
@@ -165,9 +165,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:37:19 UTC
-- Término: 2026-10-27 09:37:19 UTC
-- Duração: 0.059 segundos
+- Início: 2026-10-27 09:38:37 UTC
+- Término: 2026-10-27 09:38:37 UTC
+- Duração: 0.057 segundos
 
 #### Comando
 
@@ -180,10 +180,10 @@ Inventário JSON: ATLAS_INVENTORY.json
 ```text
 EDI Atlas Validation Engine concluído.
 Documentos analisados: 85
-Erros: 178
-Avisos: 273
+Erros: 62
+Avisos: 143
 Informações: 7
-Saúde do Atlas: 0/100
+Saúde do Atlas: 11/100
 ```
 
 ## Arquivos gerados presentes
