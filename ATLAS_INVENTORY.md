@@ -2,9 +2,9 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-10-27 09:26 UTC
+**Gerado em:** 2026-10-27 09:27 UTC
 
-**Total de documentos:** 83
+**Total de documentos:** 84
 
 ## 00_FOUNDATION
 
@@ -824,7 +824,7 @@ Documentos encontrados: **10**
 
 ## ADR
 
-Documentos encontrados: **5**
+Documentos encontrados: **6**
 
 ### [Framework EDI como Patrimônio Científico](ADR/ADR-0001_Framework_EDI.md)
 
@@ -886,6 +886,18 @@ Documentos encontrados: **5**
 - Linhas: **32**
 - Tamanho: **469 bytes**
 
+### [ADR-0006 — EDI Knowledge Engine como orquestrador documental do Atlas](ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md)
+
+- Caminho: `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **58**
+- Tamanho: **3105 bytes**
+
 ## ATLAS_HEALTH.md
 
 Documentos encontrados: **1**
@@ -916,7 +928,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **30**
-- Tamanho: **961 bytes**
+- Tamanho: **963 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -1004,7 +1016,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5158 bytes**
+- Tamanho: **5159 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
@@ -1020,7 +1032,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **216**
-- Tamanho: **5336 bytes**
+- Tamanho: **5335 bytes**
 
 ## METADATA_REPORT.md
 
@@ -1051,8 +1063,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **281**
-- Tamanho: **7488 bytes**
+- Linhas: **308**
+- Tamanho: **9142 bytes**
 
 ## STATUS_OFICIAL.md
 
@@ -1067,5 +1079,5 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **74**
-- Tamanho: **1633 bytes**
+- Linhas: **101**
+- Tamanho: **3287 bytes**

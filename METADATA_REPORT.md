@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Atualizado em:** 2026-10-27 09:26 UTC
+**Atualizado em:** 2026-10-27 09:27 UTC
 
 ## `00_FOUNDATION/ORG-001_ORGANIZATION.md`
 
@@ -693,6 +693,18 @@ Metadados ausentes:
 - `document_type`
 - `tags`
 
+## `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md`
+
+Metadados ausentes:
+
+- `document_id`
+- `status`
+- `version`
+- `author`
+- `reviewed`
+- `document_type`
+- `tags`
+
 ## `DECISIONS/DEC-0001.md`
 
 Metadados ausentes:
@@ -770,4 +782,4 @@ Metadados ausentes:
 
 ## Resumo
 
-- Documentos com metadados incompletos: **78**
+- Documentos com metadados incompletos: **79**

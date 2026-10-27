@@ -2,7 +2,7 @@
 
 > Indicador automático de qualidade documental.
 
-**Atualizado em:** 2026-10-27 09:26 UTC
+**Atualizado em:** 2026-10-27 09:27 UTC
 
 ## Pontuação: 0/100
 
@@ -10,14 +10,14 @@
 
 ## Indicadores
 
-- Documentos analisados: **83**
-- Erros: **164**
+- Documentos analisados: **84**
+- Erros: **171**
 - Avisos: **273**
 - Informações: **7**
 
 ## Ocorrências por categoria
 
-- metadados: **433**
+- metadados: **440**
 - órfãos: **7**
 - duplicidade: **4**
 

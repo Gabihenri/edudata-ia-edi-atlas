@@ -2,11 +2,11 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-10-27 09:26 UTC
+**Gerado em:** 2026-10-27 09:27 UTC
 
-**Documentos analisados:** 83
+**Documentos analisados:** 84
 
-**Relações identificadas:** 2259
+**Relações identificadas:** 2303
 
 ## Arquitetura oficial
 
@@ -95,6 +95,7 @@ flowchart TD
     N_ADR_ADR_0003_Architecture_md["Arquitetura Oficial"]
     N_ADR_ADR_0004_Platform_md["Plataforma Operacional de Inteligência Educacional"]
     N_ADR_ADR_0005_Products_md["Produtos Especializados"]
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md["ADR-0006 — EDI Knowledge Engine como orquestrador documental do Atlas"]
     N_DECISIONS_DEC_0001_md["Identidade Oficial da EduData IA"]
     N_DECISIONS_DEC_0002_md["Arquitetura Oficial da Plataforma"]
     N_DECISIONS_DEC_0003_md["Estratégia de Evolução da EduData IA"]
@@ -2159,6 +2160,50 @@ flowchart TD
     N_ADR_ADR_0005_Products_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_007_BOOK_PIPELINE_md
     N_ADR_ADR_0005_Products_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_008_PROMPTS_md
     N_ADR_ADR_0005_Products_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_009_BOOK_ARCHITECTURE_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_001_ARCHITECTURE_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_002_CORE_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_003_ENGINES_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_004_MEMORY_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_005_CONTEXT_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_006_AGENTS_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_007_WORKFLOWS_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_008_API_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_02_EIOS_EIOS_009_PROVIDERS_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_AUTO_INDEX_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0000_INDEX_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0001_EVIDENCE_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0002_DEVELOPMENT_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0003_INTELLIGENCE_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0004_FRAMEWORK_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0005_EIOS_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0006_PLATFORM_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0007_PRODUCT_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0008_TEACHER_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0009_SCHOOL_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_07_KNOWLEDGE_KO_0010_LEARNING_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_00_INDEX_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_AUTO_INDEX_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_01_A_ORIGEM_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_02_A_PROBLEMATICA_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_03_A_VISAO_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_04_A_MISSAO_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_05_OS_VALORES_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_06_O_FRAMEWORK_EDI_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_07_O_EIOS_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_08_A_PLATAFORMA_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_09_O_ECOSSISTEMA_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CAP_10_O_FUTURO_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_09_COLLECTION_VOLUME_00_FUNDACAO_CHANGELOG_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_AUTO_INDEX_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_001_EDITORIAL_SPECIFICATION_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_002_LATEX_TEMPLATE_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_003_COLLECTIONS_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_004_WRITING_STYLE_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_005_FIGURES_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_006_REFERENCES_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_007_BOOK_PIPELINE_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_008_PROMPTS_md
+    N_ADR_ADR_0006_EDI_KNOWLEDGE_ENGINE_md -->|"relação arquitetural"| N_11_PUBLISHER_PUB_009_BOOK_ARCHITECTURE_md
     N_DECISIONS_DEC_0001_md -->|"relação arquitetural"| N_00_FOUNDATION_ORG_001_ORGANIZATION_md
     N_DECISIONS_DEC_0001_md -->|"relação arquitetural"| N_00_FOUNDATION_ORG_002_MISSION_md
     N_DECISIONS_DEC_0001_md -->|"relação arquitetural"| N_00_FOUNDATION_ORG_003_VISION_md
@@ -4422,6 +4467,50 @@ flowchart TD
 - `ADR/ADR-0005_Products.md` → `11_PUBLISHER/PUB-007_BOOK_PIPELINE.md` — **relação arquitetural** (arquitetura oficial)
 - `ADR/ADR-0005_Products.md` → `11_PUBLISHER/PUB-008_PROMPTS.md` — **relação arquitetural** (arquitetura oficial)
 - `ADR/ADR-0005_Products.md` → `11_PUBLISHER/PUB-009_BOOK_ARCHITECTURE.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-001_ARCHITECTURE.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-002_CORE.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-003_ENGINES.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-004_MEMORY.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-005_CONTEXT.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-006_AGENTS.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-007_WORKFLOWS.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-008_API.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `02_EIOS/EIOS-009_PROVIDERS.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/AUTO_INDEX.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0000_INDEX.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0001_EVIDENCE.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0002_DEVELOPMENT.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0003_INTELLIGENCE.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0004_FRAMEWORK.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0005_EIOS.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0006_PLATFORM.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0007_PRODUCT.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0008_TEACHER.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0009_SCHOOL.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `07_KNOWLEDGE/KO-0010_LEARNING.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/00_INDEX.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-01_A_ORIGEM.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-02_A_PROBLEMATICA.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-03_A_VISAO.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-04_A_MISSAO.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-05_OS_VALORES.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-06_O_FRAMEWORK_EDI.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-07_O_EIOS.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-08_A_PLATAFORMA.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-09_O_ECOSSISTEMA.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CAP-10_O_FUTURO.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `09_COLLECTION/VOLUME-00_FUNDACAO/CHANGELOG.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/AUTO_INDEX.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-001_EDITORIAL_SPECIFICATION.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-002_LATEX_TEMPLATE.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-003_COLLECTIONS.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-004_WRITING_STYLE.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-005_FIGURES.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-006_REFERENCES.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-007_BOOK_PIPELINE.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-008_PROMPTS.md` — **relação arquitetural** (arquitetura oficial)
+- `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` → `11_PUBLISHER/PUB-009_BOOK_ARCHITECTURE.md` — **relação arquitetural** (arquitetura oficial)
 - `DECISIONS/DEC-0001.md` → `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **relação arquitetural** (arquitetura oficial)
 - `DECISIONS/DEC-0001.md` → `00_FOUNDATION/ORG-002_MISSION.md` — **relação arquitetural** (arquitetura oficial)
 - `DECISIONS/DEC-0001.md` → `00_FOUNDATION/ORG-003_VISION.md` — **relação arquitetural** (arquitetura oficial)
