@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-10-27 09:27:08 UTC
+**Executado em:** 2026-10-27 09:27:19 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.476 segundos
+**Duração total:** 0.453 segundos
 
 ## Resumo
 
@@ -33,9 +33,9 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-10-27 09:27:08 UTC
-- Término: 2026-10-27 09:27:08 UTC
-- Duração: 0.085 segundos
+- Início: 2026-10-27 09:27:19 UTC
+- Término: 2026-10-27 09:27:19 UTC
+- Duração: 0.079 segundos
 
 #### Comando
 
@@ -66,9 +66,9 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:27:08 UTC
-- Término: 2026-10-27 09:27:08 UTC
-- Duração: 0.112 segundos
+- Início: 2026-10-27 09:27:19 UTC
+- Término: 2026-10-27 09:27:19 UTC
+- Duração: 0.103 segundos
 
 #### Comando
 
@@ -90,9 +90,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:27:08 UTC
-- Término: 2026-10-27 09:27:08 UTC
-- Duração: 0.078 segundos
+- Início: 2026-10-27 09:27:19 UTC
+- Término: 2026-10-27 09:27:19 UTC
+- Duração: 0.073 segundos
 
 #### Comando
 
@@ -106,7 +106,7 @@ Inventário JSON: ATLAS_INVENTORY.json
 Análise de dependências do EDI Atlas concluída.
 Documentos analisados: 84
 Relações identificadas: 2303
-Arquivos alterados: 1
+Arquivos alterados: 11
 Arquivo gerado: DEPENDENCY_GRAPH.md
 Arquivo gerado: CHANGE_IMPACT_REPORT.md
 ```
@@ -116,8 +116,8 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:27:08 UTC
-- Término: 2026-10-27 09:27:08 UTC
+- Início: 2026-10-27 09:27:19 UTC
+- Término: 2026-10-27 09:27:19 UTC
 - Duração: 0.062 segundos
 
 #### Comando
@@ -132,7 +132,7 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 EDI Atlas Sync Engine concluído.
 Modo: APPLY
 Documentos analisados: 84
-Ações identificadas: 3
+Ações identificadas: 0
 Relatório: ATLAS_SYNC_REPORT.md
 ```
 
@@ -141,9 +141,9 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:27:08 UTC
-- Término: 2026-10-27 09:27:08 UTC
-- Duração: 0.081 segundos
+- Início: 2026-10-27 09:27:19 UTC
+- Término: 2026-10-27 09:27:20 UTC
+- Duração: 0.079 segundos
 
 #### Comando
 
@@ -165,9 +165,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:27:08 UTC
-- Término: 2026-10-27 09:27:08 UTC
-- Duração: 0.056 segundos
+- Início: 2026-10-27 09:27:20 UTC
+- Término: 2026-10-27 09:27:20 UTC
+- Duração: 0.055 segundos
 
 #### Comando
 
