@@ -80,10 +80,10 @@ REQUIRED_METADATA_FIELDS = (
     "title",
     "status",
     "version",
-    "author",
-    "reviewed",
-    "document_type",
-    "tags",
+    "owner",
+    "classification",
+    "created",
+    "updated",
 )
 
 ALLOWED_STATUS_VALUES = {
@@ -91,6 +91,7 @@ ALLOWED_STATUS_VALUES = {
     "review",
     "approved",
     "official",
+    "oficial",
     "accepted",
     "deprecated",
     "archived",
@@ -98,6 +99,9 @@ ALLOWED_STATUS_VALUES = {
     "inactive",
     "proposed",
     "superseded",
+    "em-desenvolvimento",
+    "em-revisao",
+    "em-revisão",
 }
 
 DATE_PATTERN = re.compile(r"^\d{4}-\d{2}-\d{2}$")
@@ -116,6 +120,10 @@ class Document:
     reviewed: str | None
     document_type: str | None
     tags: tuple[str, ...]
+    owner: str | None
+    classification: str | None
+    created: str | None
+    updated: str | None
     dependencies: tuple[str, ...]
     internal_links: tuple[str, ...]
     line_count: int
@@ -220,6 +228,10 @@ def read_inventory() -> list[Document]:
                 tags=clean_list(
                     metadata.get("tags")
                 ),
+                owner=clean_optional(metadata.get("owner")),
+                classification=clean_optional(metadata.get("classification")),
+                created=clean_optional(metadata.get("created")),
+                updated=clean_optional(metadata.get("updated")),
                 dependencies=clean_list(
                     metadata.get("dependencies")
                 ),
@@ -275,10 +287,10 @@ def metadata_dict(document: Document) -> dict[str, Any]:
         "title": document.title,
         "status": document.status,
         "version": document.version,
-        "author": document.author,
-        "reviewed": document.reviewed,
-        "document_type": document.document_type,
-        "tags": document.tags,
+        "owner": document.owner,
+        "classification": document.classification,
+        "created": document.created,
+        "updated": document.updated,
     }
 
 
@@ -324,19 +336,6 @@ def validate_metadata(
                     message=(
                         "Status fora da lista recomendada: "
                         f"`{document.status}`."
-                    ),
-                )
-            )
-
-        if document.reviewed and not DATE_PATTERN.match(document.reviewed):
-            issues.append(
-                ValidationIssue(
-                    severity="warning",
-                    category="metadados",
-                    path=document.path,
-                    message=(
-                        "Campo `reviewed` deve usar o formato "
-                        "`YYYY-MM-DD`."
                     ),
                 )
             )
