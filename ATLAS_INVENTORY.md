@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-10-27 09:36 UTC
+**Gerado em:** 2026-10-27 09:37 UTC
 
 **Total de documentos:** 85
 
@@ -907,8 +907,8 @@ Documentos encontrados: **7**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **82**
-- Tamanho: **4378 bytes**
+- Linhas: **90**
+- Tamanho: **5468 bytes**
 
 ## ATLAS_HEALTH.md
 
@@ -1028,7 +1028,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5161 bytes**
+- Tamanho: **5160 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
@@ -1044,7 +1044,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **216**
-- Tamanho: **5336 bytes**
+- Tamanho: **5335 bytes**
 
 ## METADATA_REPORT.md
 
@@ -1059,8 +1059,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **785**
-- Tamanho: **10097 bytes**
+- Linhas: **797**
+- Tamanho: **10264 bytes**
 
 ## README.md
 
