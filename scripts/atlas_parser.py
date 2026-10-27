@@ -61,6 +61,10 @@ class DocumentMetadata:
     tags: list[str]
     products: list[str]
     dependencies: list[str]
+    owner: str | None
+    classification: str | None
+    created: str | None
+    updated: str | None
 
 
 @dataclass
@@ -363,6 +367,15 @@ def build_document(path: Path) -> AtlasDocument:
             "depends_on",
             "dependencias",
         ),
+        owner=scalar_value(frontmatter, "owner", "responsavel", "responsável"),
+        classification=scalar_value(
+            frontmatter,
+            "classification",
+            "classificacao",
+            "classificação",
+        ),
+        created=scalar_value(frontmatter, "created", "criado", "data_criacao"),
+        updated=scalar_value(frontmatter, "updated", "atualizado", "ultima_atualizacao"),
     )
 
     return AtlasDocument(
