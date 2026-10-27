@@ -2,15 +2,15 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Executado em:** 2026-10-27 09:27 UTC
+**Executado em:** 2026-10-27 09:36 UTC
 
-**Documentos analisados:** 84
+**Documentos analisados:** 85
 
 **Saúde do Atlas:** 0/100 — **Muito crítico**
 
 ## Resumo
 
-- Erros: **171**
+- Erros: **178**
 - Avisos: **273**
 - Informações: **7**
 
@@ -175,6 +175,13 @@
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `status`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `tags`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `version`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `author`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `status`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `tags`.
+- `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md` — **metadados** — Metadado obrigatório ausente: `version`.
 - `DECISIONS/DEC-0001.md` — **metadados** — Metadado obrigatório ausente: `author`.
 - `DECISIONS/DEC-0001.md` — **metadados** — Metadado obrigatório ausente: `document_type`.
 - `DECISIONS/DEC-0001.md` — **metadados** — Metadado obrigatório ausente: `reviewed`.

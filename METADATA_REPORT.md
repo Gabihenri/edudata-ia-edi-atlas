@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Atualizado em:** 2026-10-27 09:27 UTC
+**Atualizado em:** 2026-10-27 09:36 UTC
 
 ## `00_FOUNDATION/ORG-001_ORGANIZATION.md`
 
@@ -705,6 +705,18 @@ Metadados ausentes:
 - `document_type`
 - `tags`
 
+## `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md`
+
+Metadados ausentes:
+
+- `document_id`
+- `status`
+- `version`
+- `author`
+- `reviewed`
+- `document_type`
+- `tags`
+
 ## `DECISIONS/DEC-0001.md`
 
 Metadados ausentes:
@@ -782,4 +794,4 @@ Metadados ausentes:
 
 ## Resumo
 
-- Documentos com metadados incompletos: **79**
+- Documentos com metadados incompletos: **80**

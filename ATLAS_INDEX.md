@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo GitHub Actions.
 
-**Última atualização automática:** 2026-10-27 09:27 UTC
+**Última atualização automática:** 2026-10-27 09:36 UTC
 
 ## Arquitetura oficial
 
@@ -148,6 +148,7 @@ _Nenhum documento Markdown encontrado._
 - [ADR-0004](ADR/ADR-0004_Platform.md)
 - [ADR-0005](ADR/ADR-0005_Products.md)
 - [ADR-0006 — EDI Knowledge Engine como orquestrador documental do Atlas](ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md)
+- [ADR-0007 — Plano de Remediação da Qualidade Documental do EDI Atlas](ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md)
 
 ## Decisões
 
@@ -172,5 +173,5 @@ _Nenhum documento Markdown encontrado._
 ## Resumo quantitativo
 
 - Seções oficiais previstas: **14**
-- Documentos indexados: **84**
+- Documentos indexados: **85**
 - Documentos adicionais: **9**

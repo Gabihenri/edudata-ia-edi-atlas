@@ -2,9 +2,9 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-10-27 09:27 UTC
+**Gerado em:** 2026-10-27 09:36 UTC
 
-**Total de documentos:** 84
+**Total de documentos:** 85
 
 ## 00_FOUNDATION
 
@@ -824,7 +824,7 @@ Documentos encontrados: **10**
 
 ## ADR
 
-Documentos encontrados: **6**
+Documentos encontrados: **7**
 
 ### [Framework EDI como Patrimônio Científico](ADR/ADR-0001_Framework_EDI.md)
 
@@ -898,6 +898,18 @@ Documentos encontrados: **6**
 - Linhas: **58**
 - Tamanho: **3105 bytes**
 
+### [ADR-0007 — Plano de Remediação da Qualidade Documental do EDI Atlas](ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md)
+
+- Caminho: `ADR/ADR-0007_PLANO_REMEDIACAO_QUALIDADE_ATLAS.md`
+- Tipo: `não informado`
+- ID: `não informado`
+- Status: `não informado`
+- Versão: `não informada`
+- Autor: `não informado`
+- Revisado: `não informado`
+- Linhas: **82**
+- Tamanho: **4378 bytes**
+
 ## ATLAS_HEALTH.md
 
 Documentos encontrados: **1**
@@ -927,8 +939,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **28**
-- Tamanho: **701 bytes**
+- Linhas: **30**
+- Tamanho: **963 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -1016,7 +1028,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5160 bytes**
+- Tamanho: **5161 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
@@ -1032,7 +1044,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **216**
-- Tamanho: **5335 bytes**
+- Tamanho: **5336 bytes**
 
 ## METADATA_REPORT.md
 
