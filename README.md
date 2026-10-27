@@ -12,11 +12,13 @@ Seu objetivo é preservar, organizar e versionar todo o patrimônio intelectual 
 
 O Atlas reúne conhecimento científico, decisões arquiteturais, modelos conceituais, diagramas, objetos de conhecimento e documentação técnica, servindo como fonte única de referência para pesquisadores, desenvolvedores, parceiros e futuros agentes de Inteligência Artificial.
 
+A automação documental do Atlas é orquestrada pelo **EDI Knowledge Engine**, que coordena os scripts de inventário, análise de dependências, sincronização e validação. Os relatórios de execução são artefatos operacionais; eles não substituem decisões arquiteturais aprovadas nem a revisão humana de conteúdo estratégico.
+
 ---
 
 # Estrutura
 
-```
+```text
 EDI Atlas
 
 ├── 00_FOUNDATION
@@ -24,9 +26,11 @@ EDI Atlas
 ├── 02_EIOS
 ├── 07_KNOWLEDGE
 ├── 09_COLLECTION
+├── 11_PUBLISHER
 ├── ADR
 ├── DECISIONS
 ├── DIAGRAMS
+├── scripts
 └── README.md
 ```
 
@@ -74,11 +78,13 @@ Knowledge Objects (KOs), conceitos e relações semânticas.
 
 Livros, publicações, white papers e documentação editorial.
 
+## Publisher
+
+Padrões editoriais e pipeline de publicação da EduData Press.
+
 ## ADR
 
-Architecture Decision Records.
-
-Registro histórico das decisões arquiteturais.
+Architecture Decision Records: registro histórico das decisões arquiteturais.
 
 ## Decisions
 
@@ -87,6 +93,43 @@ Decisões estratégicas permanentes da EduData IA.
 ## Diagrams
 
 Diagramas oficiais da arquitetura, modelos conceituais e fluxos do ecossistema.
+
+## EDI Knowledge Engine
+
+Orquestrador de automação documental localizado em `scripts/knowledge_engine.py`. Na configuração atual, coordena:
+
+1. `atlas_automation.py`
+2. `atlas_parser.py`
+3. `atlas_dependency_engine.py`
+4. `atlas_sync_engine.py`
+5. nova geração do inventário após sincronização;
+6. `atlas_validation_engine.py`
+
+Os artefatos gerados incluem inventário, grafo de dependências, relatório de impacto, índices automáticos das pastas derivadas e relatórios de validação e execução, conforme a configuração dos scripts.
+
+### Limites e governança
+
+- A automação não equivale a aprovação institucional do conteúdo.
+- Documentos estratégicos e arquiteturais exigem revisão humana.
+- O Sync Engine deve limitar suas alterações aos artefatos derivados que controla.
+- Os relatórios representam a saída da última execução; sua presença, isoladamente, não comprova que todos os indicadores estejam sem erros.
+- A Knowledge API, a busca semântica e a integração dos produtos são itens de roadmap até que sua implementação seja verificada separadamente.
+
+---
+
+# Arquitetura oficial da EduData IA
+
+```text
+Framework EDI
+        ↓
+EIOS — Educational Intelligence Operating System
+        ↓
+Core Compartilhado
+        ↓
+Produtos Especializados
+```
+
+O EDI Knowledge Engine dá suporte à manutenção do patrimônio documental do Atlas. Ele não substitui o EIOS nem deve ser tratado como uma API de produção para os produtos.
 
 ---
 
@@ -103,9 +146,38 @@ Todo conhecimento registrado no Atlas deve ser:
 
 ---
 
+# Automação e execução
+
+O workflow do GitHub Actions é o ponto de execução automatizada. A execução deve ser conferida na aba **Actions**, incluindo o resultado dos passos, os relatórios produzidos e o commit gerado.
+
+Arquivos operacionais esperados, conforme os módulos instalados:
+
+- `ATLAS_INVENTORY.md` e `ATLAS_INVENTORY.json`
+- `DEPENDENCY_GRAPH.md`
+- `CHANGE_IMPACT_REPORT.md`
+- `ATLAS_SYNC_REPORT.md`
+- `ATLAS_VALIDATION_REPORT.md`
+- `ATLAS_HEALTH.md`
+- `METADATA_REPORT.md`
+- `BROKEN_LINKS.md`
+- `DUPLICATED_IDS.md`
+- `KNOWLEDGE_ENGINE_REPORT.md` e `KNOWLEDGE_ENGINE_REPORT.json`
+
+A lista efetiva de artefatos depende da configuração e do sucesso de cada módulo. Consultar o relatório de execução antes de considerar uma atualização concluída.
+
+---
+
 # Evolução
 
 O EDI Atlas evolui continuamente acompanhando o desenvolvimento da EduData IA.
+
+Próximas evoluções propostas, ainda sujeitas à implementação e validação:
+
+1. consolidar relatórios em um Report Engine;
+2. ampliar o grafo para relações semânticas explícitas;
+3. desenvolver uma Knowledge API com autenticação, autorização e versionamento;
+4. avaliar busca semântica/RAG com proveniência e controle de acesso;
+5. integrar os produtos à fonte oficial de conhecimento após testes de contrato e segurança.
 
 Novos documentos, modelos, diagramas e decisões poderão ser incorporados mantendo compatibilidade com a arquitetura oficial da plataforma.
 
@@ -119,7 +191,7 @@ Salvo indicação em contrário, todo o conteúdo do EDI Atlas constitui patrim�
 
 # Versão
 
-Versão atual: **1.0.0**
+Versão documental: **2.0.0**
 
 Ano: **2026**
 
@@ -159,6 +231,7 @@ Produtos Especializados
 - O EDI Atlas é a fonte oficial do patrimônio intelectual.
 - O EDI Publisher e a EduData Press integram a infraestrutura editorial.
 - O template LaTeX da EduData Press está em homologação.
+- O EDI Knowledge Engine coordena a automação documental do Atlas; a execução efetiva deve ser confirmada pelos relatórios do workflow.
 
 ## Prioridade operacional
 
