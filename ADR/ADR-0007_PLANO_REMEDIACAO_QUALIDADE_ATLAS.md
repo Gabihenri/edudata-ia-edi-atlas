@@ -21,6 +21,14 @@ A execução bem-sucedida dos scripts comprova a execução técnica, mas não a
 
 Adotar remediação incremental, rastreável e revisada por humanos, sem preencher metadados factuais por suposição e sem alterar em lote documentos autoritativos.
 
+## Achado técnico confirmado: contrato de metadados divergente
+
+A inspeção do validador e dos documentos de referência identificou uma incompatibilidade entre o contrato exigido por `scripts/atlas_validation_engine.py` e o padrão documental já registrado em `00_FOUNDATION/ORG-010_DOCUMENTATION_STANDARD.md` e usado, por exemplo, em `01_FRAMEWORK_EDI/FW-001_FRAMEWORK.md`.
+
+O validador exige `document_id`, `author`, `reviewed`, `document_type` e `tags`; documentos existentes usam campos como `id`, `owner`, `maintainer`, `classification`, `created` e `updated`. Isso explica parte importante dos apontamentos e exige revisão do contrato antes de editar dezenas de documentos.
+
+**Não se deve assumir equivalência automática para todos os campos.** Em particular, `updated` não comprova revisão humana e `maintainer` não necessariamente identifica o autor original. A correção recomendada é harmonizar o validador com o padrão oficial, definindo aliases seguros e mantendo campos sem equivalência como pendências explícitas, após testes com documentos de cada classe.
+
 ### Fase 1 — Diagnóstico reproduzível
 
 1. Preservar os relatórios gerados pelo Validation Engine como linha de base.
