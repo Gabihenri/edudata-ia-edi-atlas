@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-10-27 09:38:54 UTC
+**Executado em:** 2026-11-02 19:03:46 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.368 segundos
+**Duração total:** 0.375 segundos
 
 ## Resumo
 
@@ -33,14 +33,14 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-10-27 09:38:54 UTC
-- Término: 2026-10-27 09:38:54 UTC
-- Duração: 0.066 segundos
+- Início: 2026-11-02 19:03:46 UTC
+- Término: 2026-11-02 19:03:46 UTC
+- Duração: 0.050 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.16/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_automation.py
+/opt/hostedtoolcache/Python/3.13.17/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_automation.py
 ```
 
 #### Saída padrão
@@ -66,14 +66,14 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:38:54 UTC
-- Término: 2026-10-27 09:38:54 UTC
-- Duração: 0.083 segundos
+- Início: 2026-11-02 19:03:46 UTC
+- Término: 2026-11-02 19:03:46 UTC
+- Duração: 0.072 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.16/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_parser.py
+/opt/hostedtoolcache/Python/3.13.17/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_parser.py
 ```
 
 #### Saída padrão
@@ -90,14 +90,14 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:38:54 UTC
-- Término: 2026-10-27 09:38:55 UTC
-- Duração: 0.062 segundos
+- Início: 2026-11-02 19:03:46 UTC
+- Término: 2026-11-02 19:03:46 UTC
+- Duração: 0.073 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.16/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_dependency_engine.py
+/opt/hostedtoolcache/Python/3.13.17/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_dependency_engine.py
 ```
 
 #### Saída padrão
@@ -106,7 +106,7 @@ Inventário JSON: ATLAS_INVENTORY.json
 Análise de dependências do EDI Atlas concluída.
 Documentos analisados: 85
 Relações identificadas: 2347
-Arquivos alterados: 10
+Arquivos alterados: 3
 Arquivo gerado: DEPENDENCY_GRAPH.md
 Arquivo gerado: CHANGE_IMPACT_REPORT.md
 ```
@@ -116,14 +116,14 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:38:55 UTC
-- Término: 2026-10-27 09:38:55 UTC
-- Duração: 0.049 segundos
+- Início: 2026-11-02 19:03:46 UTC
+- Término: 2026-11-02 19:03:46 UTC
+- Duração: 0.055 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.16/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_sync_engine.py --apply
+/opt/hostedtoolcache/Python/3.13.17/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_sync_engine.py --apply
 ```
 
 #### Saída padrão
@@ -132,7 +132,7 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 EDI Atlas Sync Engine concluído.
 Modo: APPLY
 Documentos analisados: 85
-Ações identificadas: 0
+Ações identificadas: 3
 Relatório: ATLAS_SYNC_REPORT.md
 ```
 
@@ -141,14 +141,14 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:38:55 UTC
-- Término: 2026-10-27 09:38:55 UTC
-- Duração: 0.062 segundos
+- Início: 2026-11-02 19:03:46 UTC
+- Término: 2026-11-02 19:03:46 UTC
+- Duração: 0.071 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.16/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_parser.py
+/opt/hostedtoolcache/Python/3.13.17/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_parser.py
 ```
 
 #### Saída padrão
@@ -165,14 +165,14 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-10-27 09:38:55 UTC
-- Término: 2026-10-27 09:38:55 UTC
-- Duração: 0.045 segundos
+- Início: 2026-11-02 19:03:46 UTC
+- Término: 2026-11-02 19:03:46 UTC
+- Duração: 0.052 segundos
 
 #### Comando
 
 ```text
-/opt/hostedtoolcache/Python/3.13.16/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_validation_engine.py
+/opt/hostedtoolcache/Python/3.13.17/x64/bin/python /home/runner/work/edudata-ia-edi-atlas/edudata-ia-edi-atlas/scripts/atlas_validation_engine.py
 ```
 
 #### Saída padrão
