@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-11-02 19:03 UTC
+**Gerado em:** 2026-11-09 19:25 UTC
 
 **Total de documentos:** 85
 
@@ -940,7 +940,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **30**
-- Tamanho: **961 bytes**
+- Tamanho: **963 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -1028,7 +1028,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5161 bytes**
+- Tamanho: **5159 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
@@ -1044,7 +1044,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **216**
-- Tamanho: **5336 bytes**
+- Tamanho: **5335 bytes**
 
 ## METADATA_REPORT.md
 
