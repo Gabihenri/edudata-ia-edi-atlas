@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Executado em:** 2026-11-09 19:25 UTC
+**Executado em:** 2026-11-16 19:11 UTC
 
 **Documentos analisados:** 85
 
