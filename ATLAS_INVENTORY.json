@@ -3009,7 +3009,7 @@
       "size_bytes": 468,
       "line_count": 28,
       "modified_at": "2026-11-23 12:26 UTC",
-      "checksum_sha256": "19a0f214091ffc98f73fedfe4726547c7199789e2b05d8a644ebe4e69f04b17d",
+      "checksum_sha256": "c4b3018998b7690a74d2705c84a73dffbc2e5c630a1d91c6ad2d67f41e587d4c",
       "metadata": {
         "document_id": null,
         "title": "Saúde do EDI Atlas",
@@ -3028,7 +3028,7 @@
       },
       "headings": [
         "Saúde do EDI Atlas",
-        "Pontuação: 44/100",
+        "Pontuação: 47/100",
         "Indicadores",
         "Ocorrências por categoria",
         "Critério"
@@ -3041,10 +3041,10 @@
       "directory": ".",
       "filename": "ATLAS_SYNC_REPORT.md",
       "extension": ".md",
-      "size_bytes": 963,
-      "line_count": 30,
+      "size_bytes": 701,
+      "line_count": 28,
       "modified_at": "2026-11-23 12:26 UTC",
-      "checksum_sha256": "64e1f6d1f91a01dc76a28f39b4a5288be2d8017309afc521de170a49999c9d16",
+      "checksum_sha256": "a5800e41a2c318e3b7cb1fd19d9d05b6d293bec84476c76025be134365a47993",
       "metadata": {
         "document_id": null,
         "title": "Relatório de Sincronização do EDI Atlas",
@@ -3078,7 +3078,7 @@
       "size_bytes": 188,
       "line_count": 9,
       "modified_at": "2026-11-23 12:26 UTC",
-      "checksum_sha256": "91e45a5fe57a54b809bfb668e5b0df688edeeb686b16b6b6f9a3c181a0bddff4",
+      "checksum_sha256": "415bcccf89949a759361af7a6c6bc9f1b1aeb3c9ffe934827498ef9b454b370b",
       "metadata": {
         "document_id": null,
         "title": "Links Internos Quebrados",
@@ -3214,7 +3214,7 @@
       "size_bytes": 191,
       "line_count": 9,
       "modified_at": "2026-11-23 12:26 UTC",
-      "checksum_sha256": "7bafc7d68fe0fb5ceaf2ddd0cc73837a846d557a1051813cfb6328d093089ef4",
+      "checksum_sha256": "ae85d362d4714bff38a495995056dcf57e1ab68fc42d4d4fc323583ed2088d72",
       "metadata": {
         "document_id": null,
         "title": "IDs Duplicados no EDI Atlas",
@@ -3242,10 +3242,10 @@
       "directory": ".",
       "filename": "KNOWLEDGE_ENGINE_REPORT.json",
       "extension": ".json",
-      "size_bytes": 5157,
+      "size_bytes": 5159,
       "line_count": 121,
       "modified_at": "2026-11-23 12:26 UTC",
-      "checksum_sha256": "ffcb3f6c5246a4ebb66c539fafc21e83472c0d5ee7eb7ce0bde8bf6b6d88bf30",
+      "checksum_sha256": "86fb94372b42abf7ae786d3103c349e7d5279ca838eb0d62f389a4ecae4bb71c",
       "metadata": {
         "document_id": null,
         "title": "KNOWLEDGE ENGINE REPORT",
@@ -3271,10 +3271,10 @@
       "directory": ".",
       "filename": "KNOWLEDGE_ENGINE_REPORT.md",
       "extension": ".md",
-      "size_bytes": 5336,
+      "size_bytes": 5335,
       "line_count": 216,
       "modified_at": "2026-11-23 12:26 UTC",
-      "checksum_sha256": "abaceeb4800fc6ee92377982c302b9c43e565d66d85ccabb8cb23c81f43cc704",
+      "checksum_sha256": "6c5eba667e28e37a7f62460dcb97c092280bc70550ddc302132ea24e3005c9be",
       "metadata": {
         "document_id": null,
         "title": "Relatório do EDI Knowledge Engine",
@@ -3326,10 +3326,10 @@
       "directory": ".",
       "filename": "METADATA_REPORT.md",
       "extension": ".md",
-      "size_bytes": 3967,
-      "line_count": 291,
+      "size_bytes": 3791,
+      "line_count": 277,
       "modified_at": "2026-11-23 12:26 UTC",
-      "checksum_sha256": "aa618ad6b097e4c21b4efd8c5bc7f2729ff26ce15fc499fc20ef6625088f628c",
+      "checksum_sha256": "6faf7bff5be3ee30fb139a5597b27cded9c874a43cb3f3a837205cf6bb0f8c03",
       "metadata": {
         "document_id": null,
         "title": "Relatório de Metadados do EDI Atlas",
@@ -3348,8 +3348,6 @@
       },
       "headings": [
         "Relatório de Metadados do EDI Atlas",
-        "`01_FRAMEWORK_EDI/FW-011_CHANGELOG.md`",
-        "`01_FRAMEWORK_EDI/FW-012_VERSION.md`",
         "`07_KNOWLEDGE/AUTO_INDEX.md`",
         "`07_KNOWLEDGE/KO-0007_PRODUCT.md`",
         "`07_KNOWLEDGE/KO-0008_TEACHER.md`",
