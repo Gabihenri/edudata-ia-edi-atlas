@@ -3,6 +3,11 @@ id: ORG-009
 title: Versionamento Institucional
 version: 1.0.0
 status: Oficial
+classification: Institucional
+owner: EDI Atlas
+maintainer: EDI Atlas
+created: 2026
+updated: 2026
 ---
 
 # VERSIONAMENTO
