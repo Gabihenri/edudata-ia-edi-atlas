@@ -1,8 +1,13 @@
 ---
 id: ADR-0001
 title: Framework EDI como Patrimônio Científico
+version: 1.0.0
 status: Aceito
-date: 2026
+classification: Arquitetura
+owner: EDI Atlas
+maintainer: EDI Atlas
+created: 2026
+updated: 2026
 ---
 
 # ADR-0001
