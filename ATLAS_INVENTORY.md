@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-11-16 19:11 UTC
+**Gerado em:** 2026-11-23 12:19 UTC
 
 **Total de documentos:** 85
 
@@ -10,17 +10,17 @@
 
 Documentos encontrados: **10**
 
-### [ORG — 001 ORGANIZATION](00_FOUNDATION/ORG-001_ORGANIZATION.md)
+### [Organização da EduData IA](00_FOUNDATION/ORG-001_ORGANIZATION.md)
 
 - Caminho: `00_FOUNDATION/ORG-001_ORGANIZATION.md`
 - Tipo: `não informado`
-- ID: `não informado`
-- Status: `não informado`
-- Versão: `não informada`
+- ID: `ORG-001`
+- Status: `Oficial`
+- Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **27**
-- Tamanho: **331 bytes**
+- Linhas: **39**
+- Tamanho: **515 bytes**
 
 ### [Missão da EduData IA](00_FOUNDATION/ORG-002_MISSION.md)
 
@@ -832,11 +832,11 @@ Documentos encontrados: **7**
 - Tipo: `não informado`
 - ID: `ADR-0001`
 - Status: `Aceito`
-- Versão: `não informada`
+- Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **35**
-- Tamanho: **790 bytes**
+- Linhas: **40**
+- Tamanho: **889 bytes**
 
 ### [Criação do EIOS](ADR/ADR-0002_EIOS.md)
 
@@ -844,11 +844,11 @@ Documentos encontrados: **7**
 - Tipo: `não informado`
 - ID: `ADR-0002`
 - Status: `Aceito`
-- Versão: `não informada`
+- Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **33**
-- Tamanho: **557 bytes**
+- Linhas: **38**
+- Tamanho: **656 bytes**
 
 ### [Arquitetura Oficial](ADR/ADR-0003_Architecture.md)
 

@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-11-16 19:11 UTC
+**Gerado em:** 2026-11-23 12:19 UTC
 
 **Documentos analisados:** 85
 
@@ -24,7 +24,7 @@ Produtos Especializados
 
 ```mermaid
 flowchart TD
-    N_00_FOUNDATION_ORG_001_ORGANIZATION_md["ORG — 001 ORGANIZATION"]
+    N_00_FOUNDATION_ORG_001_ORGANIZATION_md["Organização da EduData IA"]
     N_00_FOUNDATION_ORG_002_MISSION_md["Missão da EduData IA"]
     N_00_FOUNDATION_ORG_003_VISION_md["Visão da EduData IA"]
     N_00_FOUNDATION_ORG_004_VALUES_md["Valores da EduData IA"]

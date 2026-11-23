@@ -2,19 +2,7 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Atualizado em:** 2026-11-16 19:11 UTC
-
-## `00_FOUNDATION/ORG-001_ORGANIZATION.md`
-
-Metadados ausentes:
-
-- `document_id`
-- `status`
-- `version`
-- `owner`
-- `classification`
-- `created`
-- `updated`
+**Atualizado em:** 2026-11-23 12:19 UTC
 
 ## `00_FOUNDATION/ORG-002_MISSION.md`
 
@@ -263,26 +251,6 @@ Metadados ausentes:
 - `created`
 - `updated`
 
-## `ADR/ADR-0001_Framework_EDI.md`
-
-Metadados ausentes:
-
-- `version`
-- `owner`
-- `classification`
-- `created`
-- `updated`
-
-## `ADR/ADR-0002_EIOS.md`
-
-Metadados ausentes:
-
-- `version`
-- `owner`
-- `classification`
-- `created`
-- `updated`
-
 ## `ADR/ADR-0003_Architecture.md`
 
 Metadados ausentes:
@@ -387,4 +355,4 @@ Metadados ausentes:
 
 ## Resumo
 
-- Documentos com metadados incompletos: **37**
+- Documentos com metadados incompletos: **34**

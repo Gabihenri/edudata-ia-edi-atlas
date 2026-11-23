@@ -2,27 +2,20 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Executado em:** 2026-11-16 19:11 UTC
+**Executado em:** 2026-11-23 12:19 UTC
 
 **Documentos analisados:** 85
 
-**Saúde do Atlas:** 11/100 — **Muito crítico**
+**Saúde do Atlas:** 24/100 — **Muito crítico**
 
 ## Resumo
 
-- Erros: **62**
+- Erros: **45**
 - Avisos: **143**
 - Informações: **7**
 
 ## Erros
 
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `classification`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `owner`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `status`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `00_FOUNDATION/ORG-001_ORGANIZATION.md` — **metadados** — Metadado obrigatório ausente: `version`.
 - `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `created`.
@@ -39,16 +32,6 @@
 - `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `classification`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `owner`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `ADR/ADR-0001_Framework_EDI.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `classification`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `owner`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `ADR/ADR-0002_EIOS.md` — **metadados** — Metadado obrigatório ausente: `version`.
 - `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `classification`.
 - `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `owner`.
