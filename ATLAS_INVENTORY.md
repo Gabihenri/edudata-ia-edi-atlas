@@ -940,7 +940,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **28**
-- Tamanho: **701 bytes**
+- Tamanho: **699 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -1028,7 +1028,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5160 bytes**
+- Tamanho: **5159 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
@@ -1059,8 +1059,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **358**
-- Tamanho: **4782 bytes**
+- Linhas: **328**
+- Tamanho: **4424 bytes**
 
 ## README.md
 

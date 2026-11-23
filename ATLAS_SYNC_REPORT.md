@@ -12,9 +12,9 @@
 
 ## Resumo do impacto
 
-- Total de documentos impactados: **44**
-- Exigem revisão humana: **9**
-- Podem ser sincronizados: **35**
+- Total de documentos impactados: **0**
+- Exigem revisão humana: **0**
+- Podem ser sincronizados: **0**
 
 ## Ações
 
