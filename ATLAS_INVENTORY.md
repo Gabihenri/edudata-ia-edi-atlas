@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-11-23 12:25 UTC
+**Gerado em:** 2026-11-23 12:26 UTC
 
 **Total de documentos:** 85
 
@@ -263,8 +263,8 @@ Documentos encontrados: **12**
 - Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **38**
-- Tamanho: **610 bytes**
+- Linhas: **41**
+- Tamanho: **660 bytes**
 
 ### [Controle de Versões do Framework EDI](01_FRAMEWORK_EDI/FW-012_VERSION.md)
 
@@ -275,8 +275,8 @@ Documentos encontrados: **12**
 - Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **49**
-- Tamanho: **823 bytes**
+- Linhas: **52**
+- Tamanho: **873 bytes**
 
 ## 02_EIOS
 
@@ -939,8 +939,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **28**
-- Tamanho: **701 bytes**
+- Linhas: **30**
+- Tamanho: **963 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -1028,7 +1028,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5160 bytes**
+- Tamanho: **5157 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
@@ -1044,7 +1044,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **216**
-- Tamanho: **5335 bytes**
+- Tamanho: **5336 bytes**
 
 ## METADATA_REPORT.md
 
@@ -1059,8 +1059,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **298**
-- Tamanho: **4057 bytes**
+- Linhas: **291**
+- Tamanho: **3967 bytes**
 
 ## README.md
 

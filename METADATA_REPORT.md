@@ -2,21 +2,7 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Atualizado em:** 2026-11-23 12:25 UTC
-
-## `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md`
-
-Metadados ausentes:
-
-- `created`
-- `updated`
-
-## `01_FRAMEWORK_EDI/FW-012_VERSION.md`
-
-Metadados ausentes:
-
-- `created`
-- `updated`
+**Atualizado em:** 2026-11-23 12:26 UTC
 
 ## `07_KNOWLEDGE/AUTO_INDEX.md`
 
@@ -288,4 +274,4 @@ Metadados ausentes:
 
 ## Resumo
 
-- Documentos com metadados incompletos: **26**
+- Documentos com metadados incompletos: **24**

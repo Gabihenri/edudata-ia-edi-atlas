@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo GitHub Actions.
 
-**Última atualização automática:** 2026-11-23 12:25 UTC
+**Última atualização automática:** 2026-11-23 12:26 UTC
 
 ## Arquitetura oficial
 

@@ -2,24 +2,20 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Executado em:** 2026-11-23 12:25 UTC
+**Executado em:** 2026-11-23 12:26 UTC
 
 **Documentos analisados:** 85
 
-**Saúde do Atlas:** 44/100 — **Crítico**
+**Saúde do Atlas:** 47/100 — **Crítico**
 
 ## Resumo
 
-- Erros: **18**
+- Erros: **14**
 - Avisos: **143**
 - Informações: **7**
 
 ## Erros
 
-- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `classification`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `document_id`.
