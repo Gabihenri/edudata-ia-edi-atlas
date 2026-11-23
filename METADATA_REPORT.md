@@ -4,13 +4,6 @@
 
 **Atualizado em:** 2026-11-23 12:25 UTC
 
-## `01_FRAMEWORK_EDI/FW-010_REFERENCES.md`
-
-Metadados ausentes:
-
-- `created`
-- `updated`
-
 ## `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md`
 
 Metadados ausentes:
@@ -295,4 +288,4 @@ Metadados ausentes:
 
 ## Resumo
 
-- Documentos com metadados incompletos: **27**
+- Documentos com metadados incompletos: **26**

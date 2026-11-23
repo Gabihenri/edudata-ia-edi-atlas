@@ -6,18 +6,16 @@
 
 **Documentos analisados:** 85
 
-**Saúde do Atlas:** 42/100 — **Crítico**
+**Saúde do Atlas:** 44/100 — **Crítico**
 
 ## Resumo
 
-- Erros: **20**
+- Erros: **18**
 - Avisos: **143**
 - Informações: **7**
 
 ## Erros
 
-- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `created`.

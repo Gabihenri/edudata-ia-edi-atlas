@@ -251,8 +251,8 @@ Documentos encontrados: **12**
 - Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **54**
-- Tamanho: **911 bytes**
+- Linhas: **57**
+- Tamanho: **962 bytes**
 
 ### [Changelog do Framework EDI](01_FRAMEWORK_EDI/FW-011_CHANGELOG.md)
 
@@ -924,7 +924,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **28**
-- Tamanho: **474 bytes**
+- Tamanho: **468 bytes**
 
 ## ATLAS_SYNC_REPORT.md
 
@@ -939,8 +939,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **30**
-- Tamanho: **964 bytes**
+- Linhas: **28**
+- Tamanho: **701 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -1059,8 +1059,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **328**
-- Tamanho: **4424 bytes**
+- Linhas: **298**
+- Tamanho: **4057 bytes**
 
 ## README.md
 
