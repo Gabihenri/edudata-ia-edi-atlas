@@ -1,3 +1,15 @@
+---
+id: ORG-001
+title: Organização da EduData IA
+version: 1.0.0
+status: Oficial
+classification: Institucional
+owner: EDI Atlas
+maintainer: EDI Atlas
+created: 2026
+updated: 2026
+---
+
 ORG-001 — ORGANIZATION
 
 1. Apresentação
