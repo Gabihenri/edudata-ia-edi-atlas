@@ -2,30 +2,20 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Executado em:** 2026-11-23 12:19 UTC
+**Executado em:** 2026-11-23 12:25 UTC
 
 **Documentos analisados:** 85
 
-**Saúde do Atlas:** 35/100 — **Muito crítico**
+**Saúde do Atlas:** 42/100 — **Crítico**
 
 ## Resumo
 
-- Erros: **30**
+- Erros: **20**
 - Avisos: **143**
 - Informações: **7**
 
 ## Erros
 
-- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `00_FOUNDATION/ORG-002_MISSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `00_FOUNDATION/ORG-003_VISION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `00_FOUNDATION/ORG-004_VALUES.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `classification`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `owner`.
-- `00_FOUNDATION/ORG-009_VERSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `01_FRAMEWORK_EDI/FW-010_REFERENCES.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `created`.

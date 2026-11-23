@@ -2,37 +2,7 @@
 
 > Arquivo gerado automaticamente pelo Validation Engine.
 
-**Atualizado em:** 2026-11-23 12:19 UTC
-
-## `00_FOUNDATION/ORG-002_MISSION.md`
-
-Metadados ausentes:
-
-- `created`
-- `updated`
-
-## `00_FOUNDATION/ORG-003_VISION.md`
-
-Metadados ausentes:
-
-- `created`
-- `updated`
-
-## `00_FOUNDATION/ORG-004_VALUES.md`
-
-Metadados ausentes:
-
-- `created`
-- `updated`
-
-## `00_FOUNDATION/ORG-009_VERSION.md`
-
-Metadados ausentes:
-
-- `owner`
-- `classification`
-- `created`
-- `updated`
+**Atualizado em:** 2026-11-23 12:25 UTC
 
 ## `01_FRAMEWORK_EDI/FW-010_REFERENCES.md`
 
@@ -325,4 +295,4 @@ Metadados ausentes:
 
 ## Resumo
 
-- Documentos com metadados incompletos: **31**
+- Documentos com metadados incompletos: **27**

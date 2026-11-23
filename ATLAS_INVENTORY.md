@@ -2,7 +2,7 @@
 
 > Arquivo gerado automaticamente pelo EDI Knowledge Engine.
 
-**Gerado em:** 2026-11-23 12:19 UTC
+**Gerado em:** 2026-11-23 12:25 UTC
 
 **Total de documentos:** 85
 
@@ -31,8 +31,8 @@ Documentos encontrados: **10**
 - Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **27**
-- Tamanho: **1277 bytes**
+- Linhas: **29**
+- Tamanho: **1305 bytes**
 
 ### [Visão da EduData IA](00_FOUNDATION/ORG-003_VISION.md)
 
@@ -43,8 +43,8 @@ Documentos encontrados: **10**
 - Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **22**
-- Tamanho: **805 bytes**
+- Linhas: **25**
+- Tamanho: **855 bytes**
 
 ### [Valores da EduData IA](00_FOUNDATION/ORG-004_VALUES.md)
 
@@ -55,8 +55,8 @@ Documentos encontrados: **10**
 - Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **26**
-- Tamanho: **475 bytes**
+- Linhas: **29**
+- Tamanho: **525 bytes**
 
 ### [Governança da EduData IA](00_FOUNDATION/ORG-005_GOVERNANCE.md)
 
@@ -115,8 +115,8 @@ Documentos encontrados: **10**
 - Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **29**
-- Tamanho: **468 bytes**
+- Linhas: **34**
+- Tamanho: **565 bytes**
 
 ### [Padrão Oficial de Documentação da EduData IA](00_FOUNDATION/ORG-010_DOCUMENTATION_STANDARD.md)
 
@@ -939,8 +939,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **28**
-- Tamanho: **699 bytes**
+- Linhas: **30**
+- Tamanho: **964 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -1028,7 +1028,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5159 bytes**
+- Tamanho: **5160 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
