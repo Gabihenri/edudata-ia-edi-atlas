@@ -5,6 +5,9 @@ version: 1.0.0
 status: Oficial
 classification: Framework
 owner: EDI Atlas
+maintainer: EDI Atlas
+created: 2026
+updated: 2026
 ---
 
 # Changelog
