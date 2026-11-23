@@ -8,7 +8,7 @@
 
 **Documentos analisados:** 85
 
-**Ações identificadas:** 3
+**Ações identificadas:** 0
 
 ## Resumo do impacto
 
@@ -18,9 +18,7 @@
 
 ## Ações
 
-- **atualizar** `07_KNOWLEDGE/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
-- **atualizar** `09_COLLECTION/VOLUME-00_FUNDACAO/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
-- **atualizar** `11_PUBLISHER/AUTO_INDEX.md` — sincronizar índice da pasta derivada — aplicada
+- Nenhuma alteração de sincronização foi necessária.
 
 ## Limites de segurança
 

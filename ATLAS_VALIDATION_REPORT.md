@@ -6,11 +6,11 @@
 
 **Documentos analisados:** 85
 
-**Saúde do Atlas:** 24/100 — **Muito crítico**
+**Saúde do Atlas:** 35/100 — **Muito crítico**
 
 ## Resumo
 
-- Erros: **45**
+- Erros: **30**
 - Avisos: **143**
 - Informações: **7**
 
@@ -32,21 +32,6 @@
 - `01_FRAMEWORK_EDI/FW-011_CHANGELOG.md` — **metadados** — Metadado obrigatório ausente: `updated`.
 - `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `01_FRAMEWORK_EDI/FW-012_VERSION.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `classification`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `owner`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `ADR/ADR-0003_Architecture.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `classification`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `owner`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `ADR/ADR-0004_Platform.md` — **metadados** — Metadado obrigatório ausente: `version`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `classification`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `created`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `owner`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `updated`.
-- `ADR/ADR-0005_Products.md` — **metadados** — Metadado obrigatório ausente: `version`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `classification`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `created`.
 - `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md` — **metadados** — Metadado obrigatório ausente: `document_id`.

@@ -856,11 +856,11 @@ Documentos encontrados: **7**
 - Tipo: `não informado`
 - ID: `ADR-0003`
 - Status: `Aceito`
-- Versão: `não informada`
+- Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **34**
-- Tamanho: **343 bytes**
+- Linhas: **39**
+- Tamanho: **442 bytes**
 
 ### [Plataforma Operacional de Inteligência Educacional](ADR/ADR-0004_Platform.md)
 
@@ -868,11 +868,11 @@ Documentos encontrados: **7**
 - Tipo: `não informado`
 - ID: `ADR-0004`
 - Status: `Aceito`
-- Versão: `não informada`
+- Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **26**
-- Tamanho: **406 bytes**
+- Linhas: **31**
+- Tamanho: **505 bytes**
 
 ### [Produtos Especializados](ADR/ADR-0005_Products.md)
 
@@ -880,11 +880,11 @@ Documentos encontrados: **7**
 - Tipo: `não informado`
 - ID: `ADR-0005`
 - Status: `Aceito`
-- Versão: `não informada`
+- Versão: `1.0.0`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **32**
-- Tamanho: **469 bytes**
+- Linhas: **37**
+- Tamanho: **568 bytes**
 
 ### [ADR-0006 — EDI Knowledge Engine como orquestrador documental do Atlas](ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md)
 
@@ -939,8 +939,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **30**
-- Tamanho: **963 bytes**
+- Linhas: **28**
+- Tamanho: **701 bytes**
 
 ## BROKEN_LINKS.md
 
@@ -1028,7 +1028,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **121**
-- Tamanho: **5161 bytes**
+- Tamanho: **5160 bytes**
 
 ## KNOWLEDGE_ENGINE_REPORT.md
 
@@ -1044,7 +1044,7 @@ Documentos encontrados: **1**
 - Autor: `não informado`
 - Revisado: `não informado`
 - Linhas: **216**
-- Tamanho: **5336 bytes**
+- Tamanho: **5335 bytes**
 
 ## METADATA_REPORT.md
 
@@ -1059,8 +1059,8 @@ Documentos encontrados: **1**
 - Versão: `não informada`
 - Autor: `não informado`
 - Revisado: `não informado`
-- Linhas: **390**
-- Tamanho: **5177 bytes**
+- Linhas: **358**
+- Tamanho: **4782 bytes**
 
 ## README.md
 

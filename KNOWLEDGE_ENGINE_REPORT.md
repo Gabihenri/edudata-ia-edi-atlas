@@ -2,13 +2,13 @@
 
 > Arquivo gerado automaticamente pelo orquestrador oficial do Atlas.
 
-**Executado em:** 2026-11-23 12:19:04 UTC
+**Executado em:** 2026-11-23 12:19:14 UTC
 
 **Modo:** `APPLY`
 
 **Resultado geral:** `SUCESSO`
 
-**Duração total:** 0.325 segundos
+**Duração total:** 0.501 segundos
 
 ## Resumo
 
@@ -33,9 +33,9 @@
 - Status: **success**
 - Crítico: **não**
 - Código de saída: `0`
-- Início: 2026-11-23 12:19:04 UTC
-- Término: 2026-11-23 12:19:04 UTC
-- Duração: 0.047 segundos
+- Início: 2026-11-23 12:19:14 UTC
+- Término: 2026-11-23 12:19:14 UTC
+- Duração: 0.085 segundos
 
 #### Comando
 
@@ -66,9 +66,9 @@ Avisos encontrados:
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-11-23 12:19:04 UTC
-- Término: 2026-11-23 12:19:04 UTC
-- Duração: 0.064 segundos
+- Início: 2026-11-23 12:19:14 UTC
+- Término: 2026-11-23 12:19:14 UTC
+- Duração: 0.126 segundos
 
 #### Comando
 
@@ -90,9 +90,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-11-23 12:19:04 UTC
-- Término: 2026-11-23 12:19:04 UTC
-- Duração: 0.059 segundos
+- Início: 2026-11-23 12:19:14 UTC
+- Término: 2026-11-23 12:19:14 UTC
+- Duração: 0.086 segundos
 
 #### Comando
 
@@ -116,9 +116,9 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-11-23 12:19:04 UTC
-- Término: 2026-11-23 12:19:04 UTC
-- Duração: 0.048 segundos
+- Início: 2026-11-23 12:19:14 UTC
+- Término: 2026-11-23 12:19:14 UTC
+- Duração: 0.063 segundos
 
 #### Comando
 
@@ -132,7 +132,7 @@ Arquivo gerado: CHANGE_IMPACT_REPORT.md
 EDI Atlas Sync Engine concluído.
 Modo: APPLY
 Documentos analisados: 85
-Ações identificadas: 3
+Ações identificadas: 0
 Relatório: ATLAS_SYNC_REPORT.md
 ```
 
@@ -141,9 +141,9 @@ Relatório: ATLAS_SYNC_REPORT.md
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-11-23 12:19:04 UTC
-- Término: 2026-11-23 12:19:04 UTC
-- Duração: 0.061 segundos
+- Início: 2026-11-23 12:19:14 UTC
+- Término: 2026-11-23 12:19:14 UTC
+- Duração: 0.080 segundos
 
 #### Comando
 
@@ -165,9 +165,9 @@ Inventário JSON: ATLAS_INVENTORY.json
 - Status: **success**
 - Crítico: **sim**
 - Código de saída: `0`
-- Início: 2026-11-23 12:19:04 UTC
-- Término: 2026-11-23 12:19:04 UTC
-- Duração: 0.044 segundos
+- Início: 2026-11-23 12:19:14 UTC
+- Término: 2026-11-23 12:19:14 UTC
+- Duração: 0.059 segundos
 
 #### Comando
 
@@ -180,10 +180,10 @@ Inventário JSON: ATLAS_INVENTORY.json
 ```text
 EDI Atlas Validation Engine concluído.
 Documentos analisados: 85
-Erros: 45
+Erros: 30
 Avisos: 143
 Informações: 7
-Saúde do Atlas: 24/100
+Saúde do Atlas: 35/100
 ```
 
 ## Arquivos gerados presentes

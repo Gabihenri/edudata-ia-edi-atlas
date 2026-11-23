@@ -251,36 +251,6 @@ Metadados ausentes:
 - `created`
 - `updated`
 
-## `ADR/ADR-0003_Architecture.md`
-
-Metadados ausentes:
-
-- `version`
-- `owner`
-- `classification`
-- `created`
-- `updated`
-
-## `ADR/ADR-0004_Platform.md`
-
-Metadados ausentes:
-
-- `version`
-- `owner`
-- `classification`
-- `created`
-- `updated`
-
-## `ADR/ADR-0005_Products.md`
-
-Metadados ausentes:
-
-- `version`
-- `owner`
-- `classification`
-- `created`
-- `updated`
-
 ## `ADR/ADR-0006_EDI_KNOWLEDGE_ENGINE.md`
 
 Metadados ausentes:
@@ -355,4 +325,4 @@ Metadados ausentes:
 
 ## Resumo
 
-- Documentos com metadados incompletos: **34**
+- Documentos com metadados incompletos: **31**
